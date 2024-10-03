@@ -2,38 +2,40 @@
 import styled from 'styled-components';
 //
 export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
-  background-color: ${({ theme }) => theme.colors.nyanza};
   color: ${({ theme }) => theme.colors.fern_green};
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-`;
-//
-export const Content = styled.div`
+  background-color: ${({ theme }) => theme.colors.nyanza};
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-
-  > h1 {
-    font-size: 4.8rem;
-    margin-top: 5rem;
-  }
-
-  > p {
-    font-size: 2.4rem;
-    padding: 1rem;
-  }
+  width: 100%;
+  height: 100vh;
 `;
 //
 export const Menu = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  color: ${({ theme }) => theme.colors.celadon_2};
+  background-color: ${({ theme }) => theme.colors.mantis};
+  width: 20rem;
+  height: 100vh;
+  padding: 1rem;
+  margin-top: 5rem;
+  font-size: 3rem;
+  
 
-  text-decoration: none;
+  a {
+    display: block;
+    margin: 1rem 1rem;
+    color: ${({ theme }) => theme.colors.fern_green};
+  }
 `;
 //
+export const Content = styled.div`
+  color: ${({ theme }) => theme.colors.fern_green};
+  background-color: ${({ theme }) => theme.colors.nyanza};
+  font-size: 3rem;
+  flex: 1;
+  padding: 2rem;
+  margin-top: 2rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+`;
