@@ -20,7 +20,12 @@ export default {
     oxford_blue: "#161b33",
     ultra_violet: "#474973",
     rose_quartz: "#a69cac",
-    almond: "#f1dac4"
+    almond: "#f1dac4", 
+
+
+    background: "#161b33",
+    text: "#f1dac4", 
+    backgroundComponents: "#0d0c1d"
 
   }
 }

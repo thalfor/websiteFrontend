@@ -12,7 +12,6 @@ export function Navbar() {
   return (
     <Container>
       <header className='header'>
-
         
         <div className='menu-icon' onClick={toggleMenu}>
           <img src={menuIcon} alt="Menu Icon" />

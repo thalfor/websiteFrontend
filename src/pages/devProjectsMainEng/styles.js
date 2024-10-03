@@ -1,30 +1,34 @@
 //
 import styled from 'styled-components';
 //
+export const Components = styled.div``;
+//
+export const Container = styled.div`
+  background-color: ${({ theme }) => theme.colors.background};
+  color: ${({ theme }) => theme.colors.text};
+  
+  font-size: 2rem;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  > p a {
+    text-decoration: none;
+  }
+`;
+/*
 export const Container = styled.div`
   color: ${({ theme }) => theme.colors.fern_green};
   background-color: ${({ theme }) => theme.colors.nyanza};
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   height: 100vh;
-`;
-//
-export const Menu = styled.div`
-  color: ${({ theme }) => theme.colors.celadon_2};
-  background-color: ${({ theme }) => theme.colors.mantis};
-  width: 20rem;
-  height: 100vh;
-  padding: 1rem;
-  margin-top: 5rem;
-  font-size: 3rem;
-  
-
-  a {
-    display: block;
-    margin: 1rem 1rem;
-    color: ${({ theme }) => theme.colors.celadon_2};
-  }
 `;
 //
 export const Content = styled.div`
@@ -39,3 +43,5 @@ export const Content = styled.div`
     margin-bottom: 1rem;
   }
 `;
+//
+*/

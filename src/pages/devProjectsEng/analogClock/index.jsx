@@ -1,44 +1,15 @@
 //
-import { Container, Menu, Content, Project } from './styles';
+import { Container, Content } from './styles';
 import { Navbar } from '../../../components/navBar';
-import { Link } from 'react-router-dom';
+import { MenuProject } from '../../../components/menuProject';
+import { AnalogClock } from '../../../components/analogClock';
 //
 export function DevProjectsAnalogClockEng(){
-
-  setInterval(setClock, 1000);
-
-  const hourHand = document.querySelector("[data-hour-hand]");
-  const minuteHand = document.querySelector("[data-minute-hand]");
-  const secondHand = document.querySelector("[data-second-hand]");
-  
-  function setRotation(element, rotationRatio) {
-    element.style.setProperty("--rotation", rotationRatio * 360);
-  }
-
-  function setClock() {
-    const currentDate = new Date();
-    const secondsRatio = currentDate.getSeconds() / 60;
-    const minutesRatio = (secondsRatio + currentDate.getMinutes()) / 60;
-    const hoursRatio = (minutesRatio + currentDate.getHours()) / 12;
-    setRotation(secondHand, secondsRatio);
-    setRotation(minuteHand, minutesRatio);
-    setRotation(hourHand, hoursRatio);
-  }
-
-  setClock();
-
   return(
-    <Container>
+    <div>
       <Navbar />
-      <div style={{ display: 'flex' }}>
-        <Menu>
-          <Link to="/DevProjectsEng/DevProjectsWebsiteEng" style={{ textDecoration: 'none' }}>This Website</Link>
-          <Link to="/DevProjectsEng/DevProjectsAnalogClockEng" style={{ textDecoration: 'none' }}>Analog Clock</Link>
-          <Link to="/DevProjectsEng/DevProjectsCalculatorEng" style={{ textDecoration: 'none' }}>Calculator</Link>
-          <Link to="/DevProjectsEng/DevProjectsPostitEng" style={{ textDecoration: 'none' }}>Post It</Link>
-          <Link to="/DevProjectsEng/DevProjectsLoginEng" style={{ textDecoration: 'none' }}>Login</Link>
-          <Link to="/DevProjectsEng/DevProjectsUrlShrinkEng" style={{ textDecoration: 'none' }}>URL Shrink</Link>
-        </Menu>
+      <MenuProject />
+      <Container>
         <Content>
           <h1>Analog Clock</h1>
           <p>
@@ -61,28 +32,9 @@ export function DevProjectsAnalogClockEng(){
           To implement this type of code one must have not only a good understanding of CSS but also a good understanding of it's logic since we 
           needed to partition the numbers and pointers in HTML for later in JS and CSS get the clock done.<br></br>
           </p>
-          <Project>
-            <div class="clock">
-              <div class="hand hour" data-hour-hand></div>
-              <div class="hand minute" data-minute-hand></div>
-              <div class="hand second" data-second-hand></div>
-              <div class="number number1">1</div>
-              <div class="number number2">2</div>
-              <div class="number number3">3</div>
-              <div class="number number4">4</div>
-              <div class="number number5">5</div>
-              <div class="number number6">6</div>
-              <div class="number number7">7</div>
-              <div class="number number8">8</div>
-              <div class="number number9">9</div>
-              <div class="number number10">10</div>
-              <div class="number number11">11</div>
-              <div class="number number12">12</div>
-            </div>
-          </Project>
         </Content>
+      </Container>
       </div>
-    </Container>
   );
 }
 //

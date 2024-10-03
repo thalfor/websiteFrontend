@@ -10,7 +10,7 @@ export const Container = styled.div`
     left: 0;
     width: 100%;
     padding: 1rem;
-    background-color: ${({ theme }) => theme.colors.mantis};
+    background-color: ${({ theme }) => theme.colors.backgroundComponents};
     display: flex;
     justify-content: flex-end;
     height: 5rem;
@@ -38,7 +38,7 @@ export const Container = styled.div`
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: ${({ theme }) => theme.colors.mantis};
+    background-color: ${({ theme }) => theme.colors.backgroundComponents};
     padding: 0 1rem;
   }
 
@@ -48,14 +48,14 @@ export const Container = styled.div`
 
   a {
     text-decoration: none;
-    color: ${({ theme }) => theme.colors.celadon_2};
+    color: ${({ theme }) => theme.colors.text};
     margin-bottom: 1rem;
   }
 
   /* Desktop specific */
   @media (min-width: 768px) {
     .menu-icon {
-      display: none; /* Hide the menu icon on desktop */
+      display: none;
     }
 
     .navbar {
@@ -74,7 +74,7 @@ export const Container = styled.div`
       margin-right: 2rem;
       margin-left: 2rem;
       margin-bottom: .2rem;
-      color: ${({ theme }) => theme.colors.celadon_2};
+      color: ${({ theme }) => theme.colors.text};
   //    color: ${({ theme }) => theme.colors.rose_quartz};
     }
 
@@ -84,7 +84,7 @@ export const Container = styled.div`
       top: 100%;
       left: 0;
       height: .2rem;
-      background: ${({ theme }) => theme.colors.celadon_2};;
+      background: ${({ theme }) => theme.colors.text};;
   //    background: ${({ theme }) => theme.colors.rose_quartz};;
       width: 0;
       transition: .3s;
