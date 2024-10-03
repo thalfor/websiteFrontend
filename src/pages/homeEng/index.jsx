@@ -16,8 +16,7 @@ export function HomeEng(){
       <Paragraph>
         <p>
           Welcome to my website!
-          Let me give you a brief explanation of what you'll find here.<br></br>
-          At the right-top you can see that a Mode option is avaiable where you may choose what fits you better, dark or light mode.
+          Let me give you a brief explanation of what you'll find here.
         </p>
         <p>
           At the menu you'll find a few options, they are as follows: <br></br>
