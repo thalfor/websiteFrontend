@@ -9,7 +9,7 @@ export function HomeEng(){
       <Brand>
         <h1>
           "Yeah. Yeah, but your scientists were so preoccupied with whether they could that they didn't stop to think if they should."<br></br>
-          Ian Malcolm.
+          <em>Ian Malcolm</em>.
         </h1>
         <img src="https://github.com/thalfor.png" alt="" />
       </Brand>

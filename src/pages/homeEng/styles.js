@@ -35,11 +35,11 @@ export const Brand = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5rem 0 1rem 0;
+    padding: 6rem 0 1rem 0;
 
     > h1 {
       text-align: left;
-      margin: 0 20rem 0 10rem;
+      margin: 0 5rem 0 5rem;
     }
 
     > img {
@@ -52,21 +52,20 @@ export const Brand = styled.div`
 
 export const Paragraph = styled.div`
   width: 100%;
-  font-size: 1.8rem;
-  margin: 1rem 1rem 1rem 1rem;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 1rem;
+  
 
   > p:nth-child(2) {
-    text-align: left;
+    text-align: center;
   }
 
   // Desktop styles
   @media (min-width: 768px) {
-    font-size: 2.2rem;
+    font-size: 4rem;
     margin-top: 2rem;
   }
 `;
