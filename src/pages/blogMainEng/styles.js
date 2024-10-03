@@ -6,5 +6,8 @@ export const Container = styled.div`
   height: 100vh;
   background-color: ${({ theme }) => theme.colors.nyanza};
   color: ${({ theme }) => theme.colors.fern_green};
+
+  font-size: 2rem;
+  padding: 5rem;
 `;
 //

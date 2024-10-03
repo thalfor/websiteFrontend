@@ -9,8 +9,6 @@ export function HobbiesEng(){
       <h1>My Hobbies</h1>
       <p>
         Hello there! Let's talk about my personal hobbies here, hope you have a good reading!<br></br><br></br>
-      </p>
-      <p>
         Music!<br></br>
         Music has been part of my life since i was 7 years old, i lived in Marília and my parents enrolled me into acoustic guitar classes which 
         i practiced for maybe one year.<br></br>
@@ -20,8 +18,6 @@ export function HobbiesEng(){
         The thing i like the most about music is that it teachs you a very important lesson: it takes time and that's okay.<br></br>
         We see a world where people are living at a faster pace than ever, and that can cause a lot of stress, anxiety, mental illness related to forgetting
         to take your time, go on your pace, and music can do wonders to prevent this type of behavior.<br></br><br></br>
-      </p>
-      <p>
         Games!<br></br>
         Just as music games have been part of my life since forever! I remember the first console that i got was a Master System with Sonic on it's memory. The best part
         of it? I still got the same console here and working!<br></br>
@@ -44,8 +40,6 @@ export function HobbiesEng(){
         in game choices and how you take the lead on each story.<br></br>
         I think that the same with music, games can help with modern problems for some of it stories can teach us a lot. One game that i always recommend people is 
         Gris. An indie masterpiece that deals with grief and it's stages. Simply wonderful and touching.<br></br><br></br>
-      </p>
-      <p>
         Travelling!<br></br>
         What can i say about this? Who the hell doesn't like travelling come on hahahah<br></br>
         Since i was about 4 or 5 years old my dad took me on a fishing trip to Pantanal, an brazilian ecosystem extremely rich on it's fauna and flora for it's a 
@@ -60,8 +54,6 @@ export function HobbiesEng(){
         - Germany: fine country! Very organized, clean, safe, super cool to get to know!<br></br>
         - Switzerland: organized, beautiful, delicious foods, AMAZING! However it's quite expensive hahaha<br></br>
         I'll write mor details about some stories of my trips at my blog, feel free to read it.<br></br><br></br><br></br>
-      </p>
-      <p>
         I think this sums up my personal favorite hobbies, thanks for the reading!
       </p>
 
