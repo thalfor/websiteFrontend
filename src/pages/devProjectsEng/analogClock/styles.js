@@ -43,6 +43,10 @@ export const Content = styled.div`
 //
 export const Project = styled.div`
 
+padding: 2rem;
+display: flex;
+justify-content: center;
+
 .clock {
   width: 300px;
   height: 300px;
