@@ -1,6 +1,5 @@
-//
 import styled from 'styled-components';
-//
+
 export const Container = styled.div`
   font-size: 2rem;
   width: 100%;
@@ -12,52 +11,87 @@ export const Container = styled.div`
     width: 100%;
     padding: 1rem;
     background-color: ${({ theme }) => theme.colors.mantis};
-//    background-color: ${({ theme }) => theme.colors.oxford_blue};
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center; 
+    justify-content: flex-end;
+    height: 5rem;
     z-index: 1000;
   }
-/*
-  .brand-name {
-    font-size: 2rem;
-    padding-left: 2rem;
-    color: ${({ theme }) => theme.colors.celadon_2};
-  }
-*/
-  a {
-    text-decoration: none;
-    position: relative;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    color: ${({ theme }) => theme.colors.celadon_2};
-//    color: ${({ theme }) => theme.colors.rose_quartz};
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0.9rem;
+    right: 1rem;
+    z-index: 1100;
+    cursor: pointer;
   }
 
-  a::before{
-    content: '';
+  .menu-icon img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .navbar {
+    width: 12rem;
+    display: none;
+    flex-direction: column;
     position: absolute;
     top: 100%;
-    left: 0;
-    height: .1rem;
-    background: ${({ theme }) => theme.colors.celadon_2};;
-//    background: ${({ theme }) => theme.colors.rose_quartz};;
-    width: 0;
-    transition: .3s;
+    right: 0;
+    background-color: ${({ theme }) => theme.colors.mantis};
+    padding: 0 1rem;
   }
 
-  a:hover::before {
-    width: 100%;
+  .navbar.active {
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.celadon_2};
+    margin-bottom: 1rem;
+  }
+
+  /* Desktop specific */
+  @media (min-width: 768px) {
+    .menu-icon {
+      display: none; /* Hide the menu icon on desktop */
+    }
+
+    .navbar {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: center;
+      padding: 0;
+      top: unset;
+    }
+
+    a {
+      text-decoration: none;
+      position: relative;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-bottom: .2rem;
+      color: ${({ theme }) => theme.colors.celadon_2};
+  //    color: ${({ theme }) => theme.colors.rose_quartz};
+    }
+
+    a::before{
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: .2rem;
+      background: ${({ theme }) => theme.colors.celadon_2};;
+  //    background: ${({ theme }) => theme.colors.rose_quartz};;
+      width: 0;
+      transition: .3s;
+    }
+
+    a:hover::before {
+      width: 100%;
+    }
   }
 `;
-//
-
-
-
-/*
-  .brand-name {
-    font-size: 2rem;
-    color: ${({ theme }) => theme.colors.celadon_2};
-  }
-    */

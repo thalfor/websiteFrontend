@@ -1,12 +1,24 @@
-//
 import { Container } from './styles';
-//
-export function Navbar(){
+import menuIcon from '../../assets/icons8-menu.svg'; // Ensure the path to the menu icon image is correct.
+import { useState } from 'react';
 
-  return(
+export function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
     <Container>
       <header className='header'>
-        <nav className='navbar'>
+
+        
+        <div className='menu-icon' onClick={toggleMenu}>
+          <img src={menuIcon} alt="Menu Icon" />
+        </div>
+
+        <nav className={`navbar ${isOpen ? 'active' : ''}`}>
           <a href="/">Home</a>
           <a href="/BioEng">About Me</a>
           <a href="/BlogMainEng">Blog</a>
@@ -14,16 +26,7 @@ export function Navbar(){
           <a href="/ProfessionalExpEng">Career</a>
           <a href="/DevProjectsEng">Portfolio</a>
         </nav>
-
       </header>
     </Container>
   );
-};
-//        <div className="brand-name">Thales Fornazari</div>
-//        <a href="/" className='language'>Eng / PtBr</a>
-/*
-        <label className="switch">
-          <input type="checkbox" />
-          <span className="slider round"></span>
-        </label>
-*/
+}
