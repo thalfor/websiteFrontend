@@ -23,7 +23,7 @@ export const Menu = styled.div`
   a {
     display: block;
     margin: 1rem 1rem;
-    color: ${({ theme }) => theme.colors.fern_green};
+    color: ${({ theme }) => theme.colors.celadon_2};
   }
 `;
 //
