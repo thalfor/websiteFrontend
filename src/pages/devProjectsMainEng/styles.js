@@ -6,7 +6,8 @@ export const Components = styled.div``;
 export const Container = styled.div`
   background-color: ${({ theme }) => theme.colors.background};
   color: ${({ theme }) => theme.colors.text};
-  
+  height: 100vh;
+
   font-size: 2rem;
   margin-top: 5rem;
   margin-left: 15rem;
@@ -15,7 +16,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
 
   > p a {
     text-decoration: none;
