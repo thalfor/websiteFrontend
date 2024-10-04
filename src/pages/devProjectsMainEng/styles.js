@@ -9,17 +9,22 @@ export const Container = styled.div`
   height: 100vh;
 
   font-size: 2rem;
-  margin-top: 5rem;
-  margin-left: 15rem;
   border: 1px solid black;
-
+  margin-top: 5rem;
+  
   display: flex;
   flex-direction: column;
   text-align: center;
-
+  
   > p a {
     text-decoration: none;
+    }
+    
+  /* Desktop */
+  @media (min-width: 768px) {    
+      margin-left: 15rem;
   }
+
 `;
 /*
 export const Container = styled.div`

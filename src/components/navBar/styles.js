@@ -1,5 +1,6 @@
+//
 import styled from 'styled-components';
-
+//
 export const Container = styled.div`
   font-size: 2rem;
   width: 100%;
@@ -52,7 +53,7 @@ export const Container = styled.div`
     margin-bottom: 1rem;
   }
 
-  /* Desktop specific */
+  /* Desktop */
   @media (min-width: 768px) {
     .menu-icon {
       display: none;

@@ -9,18 +9,10 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100vh;
+  
+  /* Desktop */
+  @media (min-width: 768px) {    
+    margin-left: 15rem;
+  }  
 `;
 //
-export const Content = styled.div`
-  background-color: ${({ theme }) => theme.colors.background};
-  color: ${({ theme }) => theme.colors.text};
-
-  font-size: 3rem;
-  flex: 1;
-  padding: 2rem;
-  margin-top: 2rem;
-
-  h1 {
-    margin-bottom: 1rem;
-  }
-`;
