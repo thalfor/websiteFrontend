@@ -9,7 +9,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   font-size: 2rem;
-  overflow: hidden;
+  //overflow: hidden;
 `;
 //
 export const Content = styled.div`
