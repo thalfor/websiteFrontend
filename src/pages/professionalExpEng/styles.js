@@ -14,15 +14,17 @@ export const Container = styled.div`
 
 
   > div {
-    width: 90rem;
-    height: 50rem;
+    width: 95rem;
+    height: 55rem;
 
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    //border: 1px solid white;
+
   }
 
   .job {
@@ -36,7 +38,14 @@ export const Container = styled.div`
   }
 
   .slick-slide > div {
-    margin: 0 1rem;
+    margin: 3rem 1.5rem;
+  }
+
+  .slick-center {
+    transform: scale(1.12);
+    transition: transform 0.4s ease;
+    font-size: 1.7rem;
+    
   }
 
 `;
