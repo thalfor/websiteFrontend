@@ -1,19 +1,45 @@
-
-import { CarouselContainer } from './styles'; // Assuming you're importing styled-components
-
+//
+import { Container } from './styles'; 
+//
 export function ProfessionalExpEng() {
 
   return (
-<CarouselContainer className="gallery"
-  data-flickity-options='{ "wrapAround": true }'>
-  <div className="gallery-cell"></div>
-  <div className="gallery-cell"></div>
-  <div className="gallery-cell"></div>
-  <div className="gallery-cell"></div>
-  <div className="gallery-cell"></div>
-</CarouselContainer>  
-);
+    <Container>
+      <div className="job">1</div>
+      <div className="job">2</div>
+      <div className="job">3</div>
+      <div className="job">4</div>
+      <div className="job">5</div>
+      <div className="job">6</div>
+    </Container>
+  );
 }
+//
+//
+
+
+/*
+
+        <div className="job">1</div>
+        <div className="job">2</div>
+        <div className="job">3</div>
+        <div className="job">4</div>
+        <div className="job">5</div>
+        <div className="job">6</div>
+
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "2rem",
+    slidesToShow: 3,
+    speed: 500
+  };
+            <Slider {...settings}>
+      </Slider>
+
+*/
+
 
 //
 /*

@@ -1,74 +1,31 @@
+//
 import styled from 'styled-components';
-
-export const CarouselContainer = styled.div`
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body { font-family: sans-serif; }
-
-.gallery {
-  background: #EEE;
-}
-
-.gallery-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
-}
-`;
-
-
-
-
-
-
-
-
-
-/*
-
-
 //
 export const Container = styled.div`
+  width: 100%;
   height: 100vh;
-  //width: 100%;
-  background-color: ${({ theme }) => theme.colors.background};
-  color: ${({ theme }) => theme.colors.text};
-  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
-  > h1 {
-    margin-top: 6rem;
-    display: flex;
-    justify-content: center;
-  }  
-`;
+  > .job {
+    background-color: #4caf50;
+    color: white;
 
-  export const Jobs = styled.div`
-  
-
-
-
-  > .jobs {
-    border: 1px solid white;
-    padding: 1rem;
     width: 20rem;
     height: 38rem;
+    font-size: 1.5rem;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid white;
+
+    margin: 3rem;
+    border-radius: .3rem;
   }
 `;
 //
-*/
