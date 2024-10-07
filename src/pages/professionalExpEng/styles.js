@@ -4,28 +4,40 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
+  padding: 6rem;
+
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 
-  > .job {
-    background-color: #4caf50;
-    color: white;
+  font-size: 3rem;
 
-    width: 20rem;
-    height: 38rem;
-    font-size: 1.5rem;
+
+  > div {
+    width: 90rem;
+    height: 50rem;
+
+    font-size: 1.7rem;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    border: 2px solid white;
-
-    margin: 3rem;
-    border-radius: .3rem;
   }
+
+  .job {
+    border: 1px solid white;
+
+    padding: 1rem;
+    border-radius: 1rem;
+    
+    height: 37rem;
+    width: 15rem;
+  }
+
+  .slick-slide > div {
+    margin: 0 1rem;
+  }
+
 `;
 //

@@ -1,16 +1,67 @@
 //
 import { Container } from './styles'; 
 //
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+//
 export function ProfessionalExpEng() {
+
+  const settings = {
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "0rem",
+    slidesToShow: 3,
+    speed: 500
+  };
 
   return (
     <Container>
-      <div className="job">1</div>
-      <div className="job">2</div>
-      <div className="job">3</div>
-      <div className="job">4</div>
-      <div className="job">5</div>
-      <div className="job">6</div>
+      <h1>Career</h1>
+      <Slider {...settings}>
+        <div className="job">
+          <strong>Pan Bank</strong><br></br>
+          Feb 2023 to May 2024<br></br>
+          <strong><u>Role:</u></strong><br></br> Specialist - Loan Portfolio Pricing<br></br>
+          <strong><u>Key Focus:</u></strong><br></br> Led pricing for buying/selling loan portfolios between banks. Programmed and automated pricing models using Python, SQL, and AWS. Optimized transaction pricing with successful project deployment.<br></br>
+          <strong><u>Tools:</u></strong><br></br> SQL, AWS, Python.
+        </div>
+        <div className="job">
+          <strong>Safra Bank</strong><br></br>
+          July 2017 to Aug 2022<br></br>
+          <strong><u>Role:</u></strong><br></br> Team Leader - CRM & Finance<br></br>
+          <strong><u>Key Focus:</u></strong><br></br> Managed a team of 3; developed and modernized fixed-income results calculators using SQL. Deployed the new tools into production, improving accuracy and efficiency. Later transitioned to FP&A, where I led data-driven financial analysis projects leveraging Python and SQL.<br></br>
+          <strong><u>Tools:</u></strong><br></br> SQL, Python.
+        </div>
+        <div className="job">
+          <strong>Itaú Bank</strong><br></br>
+          June 2015 to June 2017<br></br>
+          <strong><u>Role:</u></strong><br></br> Junior Analyst - Finance<br></br>
+          <strong><u>Key Focus:</u></strong><br></br> Part of the lead team for the &apos;80x20&apos; project, merging results and systems after Itaú's acquisition of BBA. Combined SQL, SAS, and MS Office tools for successful project delivery and market presentation.<br></br>
+          <strong><u>Tools:</u></strong><br></br> SQL, SAS, MS Office.
+        </div>
+        <div className="job">
+          <strong>Itaú Bank</strong><br></br>
+          Aug 2014 to June 2015<br></br>
+          <strong><u>Role:</u></strong><br></br> Intern - Data Analyst<br></br>
+          <strong><u>Key Focus:</u></strong><br></br> Developed data models to enhance customer experience in the call center. Utilized SQL and SAS to analyze and improve processes.<br></br><br></br>
+          <strong><u>Tools:</u></strong><br></br> SQL, SAS.
+        </div>
+        <div className="job">
+          <strong>Equifax | Boa Vista</strong><br></br>
+          May 2013 to Nov 2013<br></br>
+          <strong><u>Role:</u></strong><br></br> Intern / Data Analyst<br></br>
+          <strong><u>Key Focus:</u></strong><br></br> Built credit score evaluations using SQL and SAS, assisting companies in loan decisions and debt recovery. Successfully deployed data solutions into production.<br></br>
+          <strong><u>Tools:</u></strong><br></br> SQL, SAS.
+        </div>
+        <div className="job">
+          <strong>Quanta Jr. (University)</strong><br></br>
+          Jan 2010 to Dec 2012<br></br>
+          <strong><u>Role:</u></strong><br></br> Lead Project Creator<br></br>
+          <strong><u>Key Focus:</u></strong><br></br> Created and led the "Physics Show," showcasing experiments with government support. Involved in project management and execution.<br></br>
+        </div>
+      </Slider>
     </Container>
   );
 }
