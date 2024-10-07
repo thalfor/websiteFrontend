@@ -43,7 +43,7 @@ export const Container = styled.div`
 
   .slick-center {
     transform: scale(1.12);
-    transition: transform 0.4s ease;
+    transition: transform 0.6s ease;
     font-size: 1.7rem;
     
   }

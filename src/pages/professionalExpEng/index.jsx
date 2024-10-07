@@ -1,5 +1,6 @@
 //
 import { Container } from './styles'; 
+import { Navbar } from '../../components/navBar';
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -17,6 +18,8 @@ export function ProfessionalExpEng() {
   };
 
   return (
+    <div>
+    <Navbar />
     <Container>
       <h1>Career</h1>
       <Slider {...settings}>
@@ -63,6 +66,7 @@ export function ProfessionalExpEng() {
         </div>
       </Slider>
     </Container>
+    </div>
   );
 }
 //
