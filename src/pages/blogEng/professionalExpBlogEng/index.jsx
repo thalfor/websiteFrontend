@@ -1,11 +1,9 @@
 //
 import { Container } from './styles';
-import { Navbar } from '../../../components/navBar';
 //
 export function ProfessionalExpBlogEng(){
   return(
     <Container>
-      <Navbar />
       <h1>Professional Experience</h1>
       <p>
         Here's a bit more about my professional experience!

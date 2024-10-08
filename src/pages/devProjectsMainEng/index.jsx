@@ -1,12 +1,10 @@
 //
 import { Container } from './styles';
-import { Navbar } from '../../components/navBar';
 import { MenuProject } from '../../components/menuProject';
 //
 export function DevProjectsEng() {
   return (
     <div>
-    <Navbar />
     <MenuProject />
     <Container>
       <h1>My Portfolio</h1>

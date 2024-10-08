@@ -1,13 +1,11 @@
 //
 import { Container, Content } from './styles';
-import { Navbar } from '../../../components/navBar';
 import { MenuProject } from '../../../components/menuProject';
 import { AnalogClock } from '../../../components/analogClock';
 //
 export function DevProjectsAnalogClockEng(){
   return(
     <div>
-      <Navbar />
       <MenuProject />
       <Container>
         <Content>

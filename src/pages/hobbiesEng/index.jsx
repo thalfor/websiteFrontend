@@ -1,11 +1,10 @@
 //
 import { Container } from './styles';
-import { Navbar } from '../../components/navBar';
 //
 export function HobbiesEng(){
   return(
     <Container>
-      <Navbar />
+
       <h1>My Hobbies</h1>
       <p>
         Hello there! Let's talk about my personal hobbies here, hope you have a good reading!<br></br><br></br>

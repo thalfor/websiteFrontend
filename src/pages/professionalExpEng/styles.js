@@ -2,9 +2,11 @@
 import styled from 'styled-components';
 //
 export const Container = styled.div`
+
+  //border: 1px solid white;
+
   width: 100%;
-  height: 100vh;
-  padding: 6rem;
+  padding: 0 6rem;
 
   display: flex;
   flex-direction: column;
@@ -12,6 +14,10 @@ export const Container = styled.div`
 
   font-size: 3rem;
 
+  h1 {
+    margin-top: 7rem;
+    margin-bottom: 0;
+  }
 
   > div {
     width: 95rem;
@@ -23,8 +29,6 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    //border: 1px solid white;
-
   }
 
   .job {
@@ -45,8 +49,58 @@ export const Container = styled.div`
     transform: scale(1.12);
     transition: transform 0.6s ease;
     font-size: 1.7rem;
-    
   }
+`;
+//
+export const Courses = styled.div`
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  //border: 1px solid white;
+
+  padding: 1rem;
+  margin-bottom: 3rem;
+
+  font-size: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  > .courses {
+    //border: 1px solid white;
+    font-size: 1.7rem;
+
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+
+    height: 100%;
+    width:40rem;
+  }
+
+  > .formation {
+    //border: 1px solid white;
+    font-size: 1.7rem;
+
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+
+    height: 100%;
+    width:40rem;
+  }
+
+
 
 `;
 //

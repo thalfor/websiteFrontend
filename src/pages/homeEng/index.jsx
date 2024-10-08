@@ -1,11 +1,11 @@
 //
 import { Brand, Paragraph, Container } from './styles';
-import { Navbar } from '../../components/navBar';
 //
 export function HomeEng(){
   return(
+    <div>
     <Container>
-      <Navbar />
+      
       <Brand>
         <h1>
           "Yeah. Yeah, but your scientists were so preoccupied with whether they could that they didn't stop to think if they should."<br></br>
@@ -19,6 +19,11 @@ export function HomeEng(){
         </p>
       </Paragraph>
     </Container>
+    
+    </div>
+
   );
 }
 //
+//<Footer/>
+//<Navbar />
