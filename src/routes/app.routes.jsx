@@ -15,10 +15,10 @@ import { DevProjectsLoginEng } from '../pages/devProjectsEng/login';
 import { DevProjectsUrlShrinkEng } from '../pages/devProjectsEng/urlShrinker';
 //
 import { BlogMainEng } from '../pages/blogMainEng';
-import { aboutMeBlogEng } from '../pages/blogEng/aboutMeBlogEng';
+import { AboutMeBlogEng } from '../pages/blogEng/aboutMeBlogEng';
 import { ProfessionalExpBlogEng } from '../pages/blogEng/ProfessionalExpBlogEng';
-import { pantanalBlogEng } from '../pages/blogEng/pantanalBlogEng';
-import { pokemonPainBlogEng } from '../pages/blogEng/pokemonPainBlogEng';
+import { PantanalBlogEng } from '../pages/blogEng/pantanalBlogEng';
+import { PokemonPainBlogEng } from '../pages/blogEng/pokemonPainBlogEng';
 //
 export function AppRoutes(){
   return(
@@ -35,10 +35,10 @@ export function AppRoutes(){
       <Route path="/DevProjectsEng/DevProjectsLoginEng" element={<DevProjectsLoginEng />} />
       <Route path="/DevProjectsEng/DevProjectsUrlShrinkEng" element={<DevProjectsUrlShrinkEng />} />
       <Route path="/BlogMainEng" element={<BlogMainEng />} />
-      <Route path="/BlogMainEng/aboutMeBlogEng" element={<aboutMeBlogEng />} />
+      <Route path="/BlogMainEng/aboutMeBlogEng" element={<AboutMeBlogEng />} />
       <Route path="/BlogMainEng/ProfessionalExpBlogEng" element={<ProfessionalExpBlogEng />} />
-      <Route path="/BlogMainEng/pantanalBlogEng" element={<pantanalBlogEng />} />
-      <Route path="/BlogMainEng/pokemonPainBlogEng" element={<pokemonPainBlogEng />} />
+      <Route path="/BlogMainEng/pantanalBlogEng" element={<PantanalBlogEng />} />
+      <Route path="/BlogMainEng/pokemonPainBlogEng" element={<PokemonPainBlogEng />} />
     </Routes>
   );
 }

@@ -1,7 +1,7 @@
 //
 import { Container } from './styles'
 //
-export function pokemonPainBlogEng(){
+export function PokemonPainBlogEng(){
   return(
     <Container>
       

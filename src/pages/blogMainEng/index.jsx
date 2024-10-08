@@ -1,7 +1,8 @@
 //
 import { Container } from './styles';
 import { Link } from 'react-router-dom';
-import gaming64 from '../../assets/gamingN64.jpg'
+import professional from '../../assets/professional.jpg'
+import meBlogAboutMe from '../../assets/meBlogAboutMe.jpg'
 //
 export function BlogMainEng(){
   return(
@@ -14,18 +15,24 @@ export function BlogMainEng(){
       <div className='postsMaster'>
         <Link className='links' to="../BlogMainEng/aboutMeBlogEng">
           <div className='post'>
-            <img src={gaming64} alt="" />
-            Here's a bit more me!
+            <img src={meBlogAboutMe} alt="" />
+            Here's a bit more about me!
             <div className='datePost'>08/10/2024</div>
           </div>
         </Link>
         <Link className='links' to="../BlogMainEng/ProfessionalExpBlogEng">
           <div className='post'>
-            <img src={gaming64} alt="" />
+            <img src={professional} alt="" />
             Here's a bit more about my professional experience!
             <div className='datePost'>08/10/2024</div>
           </div>
         </Link>
+      </div>
+    </Container>
+  );
+}
+//
+/*
         <Link className='links' to="../BlogMainEng/pantanalBlogEng">
           <div className='post'>
             <img src={gaming64} alt="" />
@@ -40,8 +47,5 @@ export function BlogMainEng(){
             <div className='datePost'>08/10/2024</div>
           </div>
         </Link>
-      </div>
-    </Container>
-  );
-}
+*/
 //

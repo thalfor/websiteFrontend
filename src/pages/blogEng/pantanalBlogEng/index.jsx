@@ -1,7 +1,7 @@
 //
 import { Container } from './styles'
 //
-export function pantanalBlogEng(){
+export function PantanalBlogEng(){
   return(
     <Container>
       
