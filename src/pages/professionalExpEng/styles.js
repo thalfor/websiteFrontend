@@ -3,7 +3,15 @@ import styled from 'styled-components';
 //
 export const Container = styled.div`
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   //border: 1px solid white;
+
+  position: relative;
+  min-height: 100%;
 
   width: 100%;
   padding: 0 6rem;
@@ -54,11 +62,16 @@ export const Container = styled.div`
 //
 export const Courses = styled.div`
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 4rem;
+
 
   //border: 1px solid white;
 

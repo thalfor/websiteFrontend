@@ -15,7 +15,7 @@ export function HomeEng(){
       </Brand>
       <Paragraph>
         <p>
-          Welcome to my website! uhul!
+          so anyway Welcome to my website!
         </p>
       </Paragraph>
     </Container>
