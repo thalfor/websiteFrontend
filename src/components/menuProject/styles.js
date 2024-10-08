@@ -62,32 +62,48 @@ export const Menu = styled.div`
       display: none;
     }
 
-    width: 15rem;
-    height: 100vh;
-    font-size: 2rem;
-    top: 0;
-    left: 0;
-    position: absolute;
-    overflow-x: hidden;
-    z-index: 1;
+    .menuMaster {
+      //border: 1px solid white;
+      position: fixed;
+      margin-top: 6rem;
+      width: 100%;
+      padding: 1rem;
+      background-color: ${({ theme }) => theme.colors.background};
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-size: 2.5rem;
 
-    > div div:last-child {
-      display: flex;
-      flex-direction: column;
-      justify-content: top;
-      width: 15rem;
-      height: 100vh;
-      margin-top: 3rem;
+      a {
+        //border: 1px solid white;
+        text-decoration: none;
+        color: ${({ theme }) => theme.colors.text};
+      }
     }
-    
-    a {
+
+    .menuProject {
+      //border: 1px solid white;
+      width: 100%;
+      position: relative;
       display: flex;
-      flex-direction: column;
-      margin: 1rem 1rem;
-      color: ${({ theme }) => theme.colors.text};
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: ${({ theme }) => theme.colors.background};
+      margin: 0 30rem
     }
   }
 
 
 `;
 //
+/*
+    width: 12rem;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: ${({ theme }) => theme.colors.backgroundComponents};
+    padding: 0 1rem;
+*/

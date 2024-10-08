@@ -4,6 +4,12 @@ import { Container } from './styles';
 export function HobbiesEng(){
   return(
     <Container>
+      <h1>My Hobbies</h1>
+    </Container>
+  );
+}
+//
+/*
 
       <h1>My Hobbies</h1>
       <p>
@@ -55,8 +61,4 @@ export function HobbiesEng(){
         I'll write mor details about some stories of my trips at my blog, feel free to read it.<br></br><br></br><br></br>
         I think this sums up my personal favorite hobbies, thanks for the reading!
       </p>
-
-    </Container>
-  );
-}
-//
+*/

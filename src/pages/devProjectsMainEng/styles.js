@@ -6,23 +6,41 @@ export const Components = styled.div``;
 export const Container = styled.div`
   background-color: ${({ theme }) => theme.colors.background};
   color: ${({ theme }) => theme.colors.text};
-  height: 100vh;
+  height: 100dvh;
+
 
   font-size: 2rem;
-  border: 1px solid black;
+  //border: 1px solid black;
   margin-top: 5rem;
   
   display: flex;
   flex-direction: column;
   text-align: center;
   
+  > p {
+    margin-top: 3rem;
+  }
+
   > p a {
     text-decoration: none;
+    color: ${({ theme }) => theme.colors.text};
     }
     
-  /* Desktop */
-  @media (min-width: 768px) {    
-      margin-left: 15rem;
+  .portfolioLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    padding: 3rem;
+
+    font-size: 2.5rem;
+
+    a {
+      text-decoration: none;
+      color: ${({ theme }) => theme.colors.text};
+    }
   }
 
 `;

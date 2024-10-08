@@ -64,9 +64,21 @@ export const Container = styled.div`
       display: flex;
       flex-direction: row;
       position: relative;
-      justify-content: center;
+      justify-content: right;
       padding: 0;
       top: unset;
+      margin-right: 5rem;
+    }
+
+    .navHome {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: left;
+      padding: 0;
+      top: unset;
+      margin-left: 5rem;
     }
 
     a {
@@ -76,7 +88,6 @@ export const Container = styled.div`
       margin-left: 2rem;
       margin-bottom: .2rem;
       color: ${({ theme }) => theme.colors.text};
-  //    color: ${({ theme }) => theme.colors.rose_quartz};
     }
 
     a::before{
@@ -86,7 +97,6 @@ export const Container = styled.div`
       left: 0;
       height: .2rem;
       background: ${({ theme }) => theme.colors.text};;
-  //    background: ${({ theme }) => theme.colors.rose_quartz};;
       width: 0;
       transition: .3s;
     }

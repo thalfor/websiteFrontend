@@ -9,10 +9,6 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100vh;
-
-  /* Desktop */
-  @media (min-width: 768px) {    
-    margin-left: 15rem;
-  }
+  margin-top: 6rem;
 `;
 //

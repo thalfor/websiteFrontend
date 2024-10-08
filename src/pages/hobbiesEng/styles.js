@@ -10,7 +10,7 @@ export const Container = styled.div`
   overflow: auto;
   font-size: 2rem;
 
-  padding: 6rem;
+  padding: 5rem;
 
 `;
 //

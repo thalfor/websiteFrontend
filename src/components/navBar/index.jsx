@@ -17,8 +17,10 @@ export function Navbar() {
           <img src={menuIcon} alt="Menu Icon" />
         </div>
 
+        <nav className='navHome'>
+          <a href="/">Thales Fornazari</a>
+        </nav>
         <nav className={`navbar ${isOpen ? 'active' : ''}`}>
-          <a href="/">Home</a>
           <a href="/BioEng">About Me</a>
           <a href="/BlogMainEng">Blog</a>
           <a href="/HobbiesEng">Hobbies</a>
