@@ -1,5 +1,54 @@
+//
 import styled from 'styled-components';
+//
+export const Container = styled.div`
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  background-color: ${({ theme }) => theme.colors.background};
+  padding: 7.8rem;
+  
+  display: flex;
+  flex-direction: column;
 
+  margin-bottom: auto;
+  
+  .presentation {
+    //border: 1px solid white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    width: 50%;    
+  }
+
+  img {
+    border-radius: 50%;
+    height: 30rem;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+
+    padding: 2rem;
+  }
+  
+  `;
+//
+//
+/*
+//
 export const Container = styled.div`
   * {
     padding: 0;
@@ -18,7 +67,7 @@ export const Brand = styled.div`
   * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
   }
   width: 100%;
   
@@ -47,7 +96,7 @@ export const Brand = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 6rem 0 1rem 0;
+    padding: 6rem 3rem 1rem 3rem;
 
     > h1 {
       text-align: left;
@@ -66,7 +115,7 @@ export const Paragraph = styled.div`
   * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
   }
   width: 100%;
   
@@ -85,58 +134,6 @@ export const Paragraph = styled.div`
     font-size: 4rem;
     margin-top: 2rem;
   }
-`;
-
-
-
-
-
-/*
-//
-import styled from 'styled-components';
-//
-export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
-  background-color: ${({ theme }) => theme.colors.nyanza};
-  color: ${({ theme }) => theme.colors.fern_green};
-//  background-color: ${({ theme }) => theme.colors.rich_black};
-//  color: ${({ theme }) => theme.colors.almond};
-`;
-//
-export const Brand = styled.div`
-  width: 100%;
-  font-size: 3rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 5rem 5rem 1rem 5rem;
-
-  > h1 {
-    text-align: left;
-    margin: 0 20rem 0 10rem;
-  }
-
-  > img {
-    border-radius: 50%;
-    height: 40rem;
-    margin-right: 10rem;
-  }
-`;
-//
-export const Paragraph = styled.div`
-    width: 100%;
-    font-size: 2.2rem;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-
-    > p:nth-child(2){
-      text-align: left;
-    }
 `;
 //
 */

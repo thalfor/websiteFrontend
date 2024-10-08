@@ -8,6 +8,6 @@ export const Container = styled.div`
   color: ${({ theme }) => theme.colors.text};
 
   font-size: 2rem;
-  padding: 5rem;
+  padding: 5rem 8rem 1rem 8rem;
 `;
 //
