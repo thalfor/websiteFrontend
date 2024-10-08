@@ -38,6 +38,13 @@ export const Container = styled.div`
 
     padding: 2rem;
   }
+
+  p:last-child{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
   
   `;
 //

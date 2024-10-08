@@ -14,12 +14,12 @@ export function HomeEng(){
       <p>
         so anyway Welcome to my website!
       </p>
-      <div className='comingSoon'>
         <h1>Coming Soon:</h1>
+      <div className='comingSoon'>
         <p>
-          - Projects in my Portfolio.
-          - Complete About Me at my Blog.
-          - Website fully functional with mobile devices.
+          - Projects in my Portfolio.<br />
+          - Complete About Me at my Blog.<br />
+          - Website fully functional with mobile devices.<br />
         </p>
       </div>
     </Container>
