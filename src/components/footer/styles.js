@@ -8,11 +8,12 @@ export const Container = styled.div`
   //border: 1px solid white;
 
   text-align: left;
-  padding: 2.5rem;
+  padding: 1rem;
   right: 0;
   left: 0;
   bottom: 0;
-  position: absolute;
+  //position: relative;
+  margin-top: auto;
 
   display: flex;
   flex-direction: row;

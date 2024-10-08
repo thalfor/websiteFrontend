@@ -1,12 +1,8 @@
 //
 import styled from 'styled-components';
 //
-export const Components = styled.div``;
-//
 export const Container = styled.div`
-  background-color: ${({ theme }) => theme.colors.background};
-  color: ${({ theme }) => theme.colors.text};
-  
+
   font-size: 2rem;
   //border: 1px solid white;
   margin-top: 5rem;
