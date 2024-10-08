@@ -21,5 +21,12 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     font-family: "Afacad Flux";
   }
+
+  /*
+  ::-webkit-scrollbar {
+    width: 2rem;
+  }
+  */
+
 `;
 //

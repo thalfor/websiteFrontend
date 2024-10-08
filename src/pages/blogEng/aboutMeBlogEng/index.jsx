@@ -1,7 +1,7 @@
 //
 import { Container } from './styles'
 //
-export function BioEng(){
+export function aboutMeBlogEng(){
   return(
     <Container>
       <h1>Here's a bit more About Me</h1>

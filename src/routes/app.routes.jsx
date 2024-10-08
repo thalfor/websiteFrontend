@@ -15,6 +15,9 @@ import { DevProjectsLoginEng } from '../pages/devProjectsEng/login';
 import { DevProjectsUrlShrinkEng } from '../pages/devProjectsEng/urlShrinker';
 import { BlogMainEng } from '../pages/blogMainEng';
 import { ProfessionalExpBlogEng } from '../pages/blogEng/professionalExpBlogEng';
+import { aboutMeBlogEng } from '../pages/blogEng/aboutMeBlogEng';
+import { pantanalBlogEng } from '../pages/blogEng/pantanalBlogEng';
+import { pokemonPainBlogEng } from '../pages/blogEng/pokemonPainBlogEng';
 //
 export function AppRoutes(){
   return(
@@ -33,6 +36,9 @@ export function AppRoutes(){
       <Route path="/DevProjectsEng/DevProjectsUrlShrinkEng" element={<DevProjectsUrlShrinkEng />} />
       <Route path="/BlogMainEng" element={<BlogMainEng />} />
       <Route path="/BlogMainEng/ProfessionalExpBlogEng" element={<ProfessionalExpBlogEng />} />
+      <Route path="/BlogMainEng/aboutMeBlogEng" element={<aboutMeBlogEng />} />
+      <Route path="/BlogMainEng/pantanalBlogEng" element={<pantanalBlogEng />} />
+      <Route path="/BlogMainEng/pokemonPainBlogEng" element={<pokemonPainBlogEng />} />
     </Routes>
   );
 }

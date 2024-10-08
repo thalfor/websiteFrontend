@@ -13,6 +13,10 @@ export const Container = styled.div`
   align-items: center;
   gap: 3rem;
 
+  h1 {
+    font-size: 6rem;
+  }
+
   .title {
     display: flex;
     align-items: center;
