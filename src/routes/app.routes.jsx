@@ -16,7 +16,7 @@ import { DevProjectsUrlShrinkEng } from '../pages/devProjectsEng/urlShrinker';
 //
 import { BlogMainEng } from '../pages/blogMainEng';
 import { AboutMeBlogEng } from '../pages/blogEng/aboutMeBlogEng';
-import { ProfessionalExpBlogEng } from '../pages/blogEng/ProfessionalExpBlogEng';
+import { ProfessionalExpBlogEng } from '../pages/blogEng/professionalExpBlogEng';
 import { PantanalBlogEng } from '../pages/blogEng/pantanalBlogEng';
 import { PokemonPainBlogEng } from '../pages/blogEng/pokemonPainBlogEng';
 //
@@ -35,10 +35,10 @@ export function AppRoutes(){
       <Route path="/DevProjectsEng/DevProjectsLoginEng" element={<DevProjectsLoginEng />} />
       <Route path="/DevProjectsEng/DevProjectsUrlShrinkEng" element={<DevProjectsUrlShrinkEng />} />
       <Route path="/BlogMainEng" element={<BlogMainEng />} />
-      <Route path="/BlogMainEng/aboutMeBlogEng" element={<AboutMeBlogEng />} />
+      <Route path="/BlogMainEng/AboutMeBlogEng" element={<AboutMeBlogEng />} />
       <Route path="/BlogMainEng/ProfessionalExpBlogEng" element={<ProfessionalExpBlogEng />} />
-      <Route path="/BlogMainEng/pantanalBlogEng" element={<PantanalBlogEng />} />
-      <Route path="/BlogMainEng/pokemonPainBlogEng" element={<PokemonPainBlogEng />} />
+      <Route path="/BlogMainEng/PantanalBlogEng" element={<PantanalBlogEng />} />
+      <Route path="/BlogMainEng/PokemonPainBlogEng" element={<PokemonPainBlogEng />} />
     </Routes>
   );
 }
