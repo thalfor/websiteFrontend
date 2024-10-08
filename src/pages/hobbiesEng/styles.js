@@ -2,13 +2,56 @@
 import styled from 'styled-components';
 //
 export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
 
-  overflow: auto;
+  //border: 1px solid white;
+
+  padding: 8rem;
   font-size: 2rem;
 
-  padding: 5rem 8rem 1rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .masterHobbyBox {
+    display: grid;
+    grid-template-columns: 40rem 40rem 40rem;
+    grid-gap: 2rem;    
+  }
+
+  .hobbyBox {
+    border: 1px solid white;
+
+    height: 40rem;
+    width: 40rem;
+    border-radius: 2rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hobbyBox p:first-child {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 1rem 0;
+  }
+
+  .hobbyBox img {
+    border-radius: 10%;
+    height: 21rem;
+    margin-top: 2.5rem;
+  }
+  
 `;
 //

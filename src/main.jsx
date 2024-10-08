@@ -14,8 +14,8 @@ createRoot(document.getElementById("root")).render(
       <GlobalStyles/>
       <Navbar />
       <Routes />
-      <Footer />
     </ThemeProvider>
   </StrictMode>
 );
 //
+//<Footer />

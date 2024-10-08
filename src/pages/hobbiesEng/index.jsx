@@ -1,10 +1,69 @@
 //
 import { Container } from './styles';
+import jurassicPark from '../../assets/jurassicPark.jpg';
+import gaming from '../../assets/gamingN64.jpg';
+import music from '../../assets/music.jpg';
+import travel from '../../assets/travelling.jpg';
+import fencing from '../../assets/fencing.jpg';
+import study from '../../assets/studying.jpg';
+import read from '../../assets/read.jpg';
 //
 export function HobbiesEng(){
   return(
     <Container>
-      <h1>My Hobbies</h1>
+
+      <div className='title'>
+        <h1>Hello there!</h1>
+        <p>Here, get to know me a bit more!</p>
+      </div>
+
+      <img src="" alt="" />
+
+      <div className='masterHobbyBox'>
+
+        <div className='hobbyBox'>
+          <p><strong>Gaming!</strong></p>
+          <p>Since forever a gamer and today i kinda play my snes more than my ps5.</p>
+          <img src={gaming} alt="" />
+        </div>
+
+        <div className='hobbyBox'>
+          <p><strong>Music!</strong></p>
+          <p>Started studying as hobby at 7 years old. Well, almost 30 years latter I still play badly.</p>
+          <img src={music} alt="" />
+        </div>
+
+        <div className='hobbyBox'>
+          <p><strong>Movies!</strong></p>
+          <p>Global Law idea: every top tier movie list should start with Jurassic Park.</p>
+          <img src={jurassicPark} alt="" />
+        </div>
+
+        <div className='hobbyBox'>
+          <p><strong>Travelling!</strong></p>
+          <p>Come on, who doesn't like it? And why not going out more? We all got bills to pay baby.</p>
+          <img src={travel} alt="" />
+        </div>
+
+        <div className='hobbyBox'>
+          <p><strong>Reading!</strong></p>
+          <p>100% passionate by reading! Wait... manga counts right?</p>
+          <img src={read} alt="" />
+        </div>
+
+        <div className='hobbyBox'>
+          <p><strong>Sports!</strong></p>
+          <p>GO SPORTS!!!! Currently on fencing! A dream since i was a humanoid youngling.</p>
+          <img src={fencing} alt="" />
+        </div>
+
+        <div className='hobbyBox'>
+          <p><strong>Studying!</strong></p>
+          <p>What can i say, once a nerd always a nerd.</p>
+          <img src={study} alt="" />
+        </div>
+        
+      </div>
     </Container>
   );
 }
