@@ -22,7 +22,6 @@ export function MenuProject() {
           <a href="/DevProjectsEng/DevProjectsWebsiteEng" >This Website</a>
           <a href="/DevProjectsEng/DevProjectsAnalogClockEng" >Analog Clock</a>
           <a href="/DevProjectsEng/DevProjectsCalculatorEng" >Calculator</a>
-          <a href="/DevProjectsEng/DevProjectsPostitEng" >Post It</a>
           <a href="/DevProjectsEng/DevProjectsLoginEng" >Login</a>
           <a href="/DevProjectsEng/DevProjectsUrlShrinkEng" >URL Shrink</a>
         </div>
