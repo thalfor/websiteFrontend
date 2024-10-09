@@ -77,20 +77,30 @@ export const Courses = styled.div`
   flex-direction: column;
   align-items: center;
 
-
-  > .courses {
+  > .cousesMaster {
     //border: 1px solid white;
-    font-size: 1.7rem;
 
-    margin-top: 2rem;
+    font-size: 2rem;
 
     display: flex;
-    flex-direction: column;
-    align-items: right;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    margin: 1rem 15rem;
 
-    height: 100%;
-    width:40rem;
+    > .courses {
+      //border: 1px solid white;
+      font-size: 1.7rem;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: right;
+  
+      width: 27rem;
+      padding: 2rem;
+    }
   }
+
 
   > .formation {
     //border: 1px solid white;
@@ -100,7 +110,7 @@ export const Courses = styled.div`
 
     display: flex;
     flex-direction: column;
-    align-items: right;
+    align-items: center;
 
     height: 100%;
     width:40rem;

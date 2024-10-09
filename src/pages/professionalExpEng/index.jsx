@@ -77,26 +77,28 @@ export function ProfessionalExpEng() {
           <strong>Bachelor at Physics: University of São Paulo (USP).</strong>
         </div>
 
-        <div className='courses'>
-        <strong>RocketSeat Explorer</strong>
-          HTML & CSS. 26/06/2024 <br></br>
-          Javascript. 06/08/2024 <br></br>
-          Git & Github. 13/08/2024 <br></br>
-          Backend Jr (NodeJS). 23/08/2024 <br></br>
-          Frontend Jr (React). 15/09/2024 <br></br>
-          Back and Front Integration; 24/09/2024 <br></br>
-          Deploy. 26/09/2024
-        </div>
-          
-        <div className='courses'>
-        <strong>FreeCodeCamp</strong>
-          JavaScript Algorithms and Data Structures. 02/01/2023
-        </div>
-          
-        <div className='courses'>
-        <strong>Google</strong>
-          Project initiation: Starting a successful project. 19/06/2022 <br></br>
-          Foundations of Project Management. 13/06/2022
+        <div className='cousesMaster'>
+          <div className='courses'>
+          <strong>RocketSeat Explorer - 2024</strong>
+            HTML & CSS.<br></br>
+            Javascript.<br></br>
+            Git & Github.<br></br>
+            Backend Jr (NodeJS).<br></br>
+            Frontend Jr (React).<br></br>
+            Back and Front Integration.<br></br>
+            Deploy.
+          </div>
+            
+          <div className='courses'>
+          <strong>FreeCodeCamp - 2023</strong>
+            JavaScript Algorithms and Data Structures.
+          </div>
+            
+          <div className='courses'>
+          <strong>Google - 2022</strong>
+            Project initiation: Starting a successful project.<br></br>
+            Foundations of Project Management.
+          </div>
         </div>
 
       </Courses>
