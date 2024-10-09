@@ -122,6 +122,28 @@ export const Container = styled.div`
     }
   }
 
+  .saopauloMaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.7rem;
+
+    .saopauloImages {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+
+      .saopaulo {
+        border-radius: 30%;
+        height: 20rem;
+      }
+    }
+  }
+
 
 
 

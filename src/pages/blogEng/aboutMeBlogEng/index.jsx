@@ -13,6 +13,9 @@ import taiko05 from '../../../assets/taiko05.jpg';
 import university01 from '../../../assets/university01.jpg';
 import university02 from '../../../assets/university02.jpg';
 import university03 from '../../../assets/university03.jpg';
+import saopaulo01 from '../../../assets/saopaulo01.jpg';
+import saopaulo02 from '../../../assets/saopaulo02.jpg';
+import saopaulo03 from '../../../assets/saopaulo03.jpg';
 //
 export function AboutMeBlogEng(){
   return(
@@ -32,7 +35,7 @@ export function AboutMeBlogEng(){
         </div>
 
         Born in Brazil's countryside the one thing i always thought going to a big city like São Paulo to found a job a move on with my life 
-        and i now that i'm here i kinda want to go back? hahaha the grass is always greener on the otherside i guess.<br /><br />
+        and i now that i'm here i kinda miss it? hahaha the grass is always greener on the otherside i guess.<br /><br />
 
         Anyway let's start from the beginning of it all.. October 4th 1988.<br /><br />
         <div className='babyMeMaster'>
@@ -98,7 +101,7 @@ export function AboutMeBlogEng(){
         </div>
 
         Let's go forward some more! University!!!<br />
-        I got into the uni located in Campinas, University of Campinas! There i started the Bachelor at Physics course and i understood why it was kinda easy
+        I got into the uni located in Campinas, University of Campinas, a.k.a. UNICAMP! There i started the Bachelor at Physics course and i understood why it was kinda easy
         to get in.. It's because is insanely hard to get out holy mother of Darwin!<br />
         Talk about wtf subjects and you can't simply imagine things and the exams and the math, OH BOY THE MATH! Saying like that you may think that i hated there, and 
         you are right! hahaha just kidding, i loved it! But yeah super hard.<br />
@@ -115,7 +118,24 @@ export function AboutMeBlogEng(){
           <br />University!<br /><br />
         </div>
 
-        After i moved to São Paulo to start my professional life, where I am untill today after a little more than 10 years!<br /><br />
+        So i moved to São Paulo to start my professional life, where I am untill today after a little more than 10 years!<br />
+
+        Here in São Paulo i finished my studies at University of São Paulo (USP) and focused on my career. But still made amazing friends at work, you know, pain brings
+        people together! hahahah just kidding, i think i'm trully lucky to always be part of amazing teams with amazing people! <br />
+        São Paulo is an amazing city with a lot of opportunities! Want to get pizza 10AM? Done! Theater of anykind? Done! All sorts of foods from all around the world
+        at any time? Done! This kinda of lifestyle is something that i really wanted, you actually get to be yourself. <br />
+        Here is where i got my two marvelous, great, amazing, cute, loved dogs! Baco, the gray, and Merlot, the dark! Needless to say that i love them hahahah<br /><br />
+
+        <div className='saopauloMaster'>
+          <div className='saopauloImages'>
+            <img className='saopaulo' src={saopaulo01} alt="" />
+            <img className='saopaulo' src={saopaulo02} alt="" />
+            <img className='saopaulo' src={saopaulo03} alt="" />
+          </div>
+          <br />University!<br /><br />
+        </div>
+
+
 
         I think this post is long enough already, but what i wanted to describe are the some of the core things that shaped me who i am today. <br />
         Trully hope that you enjoyed the reading for i sure did enjoyed writing it!<br /><br />
