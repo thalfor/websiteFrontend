@@ -42,11 +42,11 @@ export function AboutMeBlogEng(){
 
         Born in the countryside has ups and downs, the same as everything in life i supose, the problem is that we almost never stop to see the good part
         and spend a lot of time chasing the dream, whatever that is.<br />
-        So you image me, a nerdy guy who likes to read, to play games, music in general, growing up in a city that had no book stores, like one place that
+        So you imagine me, a nerdy guy who likes to read, to play games, music in general, growing up in a city that had no book stores, like, one place that
         sold gaming stuff, and very little access to different kinds of music. Marvelous.<br />
         Talking like this you may think i hated there, well you're not entirely wrong, however i loved the people. Some at least.<br /><br />
 
-        One of my first memories was a bithday party where the theme was RAMBO, oh yeah. I don't remember much of my childhood but i have this very specific 
+        One of my first memories was a birthday party where the theme was RAMBO, oh yeah. I don't remember much of my childhood but i have this very specific 
         moment where i was crawling under my father's car at the garage and i really don't know why but that felt awesome! Why? well, RAMBO!!!<br /><br />
 
         I was born in Bauru and moved to another city when i was about 6 years old, the city is called Marília. There i lived until i was 20 years old.<br />
@@ -69,7 +69,7 @@ export function AboutMeBlogEng(){
         In Zelda OoT the feeling when you leave Kokiri Forest for the first time and you see the phenomenal huge map in front of you, honestly i can't describe the
         feeling.<br />
         Pokemon was a bit different feeling, but i remember the first time i played was with an emulator and we shared games using floppy discs, oh yeah.
-        The first time playing i remember when Squirtle learned Water Gun and a friend of mine said "bro, it's like 3 drops of water and you'll beat everything!", 
+        I remember when Squirtle learned Water Gun and a friend of mine said "bro, it's like 3 drops of water and you'll beat everything!", 
         AWESOME! Honestly it's awesome hahahha.<br />
         Needless to say that this also shapped my hole personality along with Metallica.<br /><br />
 
@@ -83,7 +83,7 @@ export function AboutMeBlogEng(){
         I remember when the leaders (the ones who teach us) told us which instruments we were set to play, mine was the Odaiko, the large one that is usually
         set horizontally at some sort of support. <br />
         We usually perform at festivals that had main focus the japanese culture, such as the Japan Fest at Marília, Bastos Festival at Bastos. But we also performed
-        at events of anyking, at universities, schools. We were ready to give our best anytime and anywhere! <br />
+        at events of anykind, at universities, schools. We were ready to give our best anytime and anywhere! <br />
         At that time I met some of my greatest friends and we still are untill today! <br /><br />
 
         <div className='taikoMaster'>
@@ -102,7 +102,8 @@ export function AboutMeBlogEng(){
         to get in.. It's because is insanely hard to get out holy mother of Darwin!<br />
         Talk about wtf subjects and you can't simply imagine things and the exams and the math, OH BOY THE MATH! Saying like that you may think that i hated there, and 
         you are right! hahaha just kidding, i loved it! But yeah super hard.<br />
-        To get to deep dive into nature's secrets, analysing the particles, experimenting, it's honestly great!<br />
+        To get to deep dive into nature's secrets, analysing the particles, experimenting, it's honestly great! I also was part of the Physics Show, 
+        creating and performing! Something that i simply loved!<br />
         There i lived with some friends at a house that we called "Lara's Republic"! Great time, even greater friends, an amazing experience!<br /><br />
 
         <div className='universityMaster'>
