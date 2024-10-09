@@ -25,11 +25,107 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
 
+    font-size: 1.7rem;
+
     .colorblind {
       border-radius: 50%;
       height: 20rem;
     }
   }
+
+  .babyMeMaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.7rem;
+
+    .babyMe {
+      border-radius: 40%;
+      height: 20rem;
+      width: 25rem;
+    }
+  }
+
+  .musicMaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.7rem;
+
+    .music {
+      border-radius: 50%;
+      height: 20rem;
+      width: 25rem;
+    }
+  }
+
+  .tattooMaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.7rem;
+
+    .tattoo {
+      border-radius: 30%;
+      height: 20rem;
+      width: 25rem;
+    }
+  }
+
+  .taikoMaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.7rem;
+
+    .taikoImages {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+
+      .taiko {
+        border-radius: 30%;
+        height: 20rem;
+      }
+    }
+  }
+
+  .universityMaster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.7rem;
+
+    .universityImages {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+
+      .university {
+        border-radius: 30%;
+        height: 20rem;
+      }
+    }
+  }
+
+
+
+
+
 
   .links {
     margin-top: 4rem;
