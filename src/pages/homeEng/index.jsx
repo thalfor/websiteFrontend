@@ -18,7 +18,6 @@ export function HomeEng(){
       <div className='comingSoon'>
         <p>
           - Projects in my Portfolio.<br />
-          - Complete About Me at my Blog.<br />
           - Website fully functional with mobile devices.<br />
           - Footer
         </p>
