@@ -24,7 +24,6 @@ export function DevProjectsEng() {
         <a href="/DevProjectsEng/DevProjectsWebsiteEng"><strong>This Website</strong></a>
         <a href="/DevProjectsEng/DevProjectsAnalogClockEng"><strong>Analog Clock</strong></a>
         <a href="/DevProjectsEng/DevProjectsCalculatorEng"><strong>Calculator</strong></a>
-        <a href="/DevProjectsEng/DevProjectsPostitEng"><strong>PostIt</strong></a>
         <a href="/DevProjectsEng/DevProjectsLoginEng"><strong>Login Page</strong></a>
         <a href="/DevProjectsEng/DevProjectsUrlShrinkEng"><strong>Url Shrinker</strong></a>
       </div>
