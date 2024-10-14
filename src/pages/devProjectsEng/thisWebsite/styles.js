@@ -7,6 +7,6 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
   //height: 100vh;
-  margin-top: 6rem;
+  margin-top: 8rem;
 `;
 //
