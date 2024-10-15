@@ -96,8 +96,8 @@ const codeString04 = `<div
         <AnalogClock />
         <p>
           So I had to re-do this project.<br />
-          At my <a href="" target='_blank'><strong>github</strong></a> page I have this project but not using React. There I did a while ago when I haven't sutdyied
-          React so it has a HTML, JS, CSS file.<br />
+          At my <a href="https://github.com/thalfor/JS_analogClock/" target='_blank'><strong>github</strong></a> page I have this project but not using React. 
+          There I did a while ago when I haven't sutdyied React so it has a HTML, JS, CSS file.<br />
           However here since I'm using react i had to recreate the JS logic into my JSX file. The analog clock was created as a component so i can use it anywhere on
           this website.<br /><br />
 
