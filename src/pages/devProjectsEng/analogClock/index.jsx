@@ -146,9 +146,9 @@ const codeString04 = `<div
           "Fun" fact here, if you google or youtube "React Analog Clock" you'll find a lot of examples that are WRONG! Not because the logic is actually wrong 
           but because it's incomplete! What happens is that some people just didn't use a complete logic for the Hours hand, so it stays fixed every hour.<br /><br />
           Here are some wrong examples:<br />
-          <a href="https://www.youtube.com/watch?v=KnixxKoBnFA" target='_blank'><strong>Example wrong Analog Clock 1</strong></a><br />
-          <a href="https://codesandbox.io/p/sandbox/analog-clock-using-react-idkpz" target='_blank'><strong>Example wrong Analog Clock 2</strong></a><br />
-          <a href="https://medium.com/@guyrashko/how-to-create-an-analog-clock-using-react-2e2e382367c3" target='_blank'><strong>Example wrong Analog Clock 3</strong></a><br /><br />
+          <a href="https://www.youtube.com/watch?v=KnixxKoBnFA" target='_blank'><strong>Example 1</strong></a><br />
+          <a href="https://codesandbox.io/p/sandbox/analog-clock-using-react-idkpz" target='_blank'><strong>Example 2</strong></a><br />
+          <a href="https://medium.com/@guyrashko/how-to-create-an-analog-clock-using-react-2e2e382367c3" target='_blank'><strong>Example 3</strong></a><br /><br />
 
           I really don't know why is that for usually the one thing that is missing is the minutes component / 12 added to the hours. <br />
           Maybe a copy paste without checking? Maybe that's the way they wanted to build it? I don't know, but it is an odd thing to happen.<br /><br />
