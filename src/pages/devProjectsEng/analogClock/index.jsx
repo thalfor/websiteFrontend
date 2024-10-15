@@ -150,7 +150,7 @@ const codeString04 = `<div
           <a href="https://codesandbox.io/p/sandbox/analog-clock-using-react-idkpz" target='_blank'><strong>Example 2</strong></a><br />
           <a href="https://medium.com/@guyrashko/how-to-create-an-analog-clock-using-react-2e2e382367c3" target='_blank'><strong>Example 3</strong></a><br /><br />
 
-          I really don't know why is that for usually the one thing that is missing is the minutes component / 12 added to the hours. <br />
+          I really don't know why is that for usually the one thing that is missing is the minutes component added to the hours. <br />
           Maybe a copy paste without checking? Maybe that's the way they wanted to build it? I don't know, but it is an odd thing to happen.<br /><br />
 
           I hope you have enjoyed the reading!         
