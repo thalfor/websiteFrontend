@@ -65,9 +65,6 @@ export const Courses = styled.div`
   min-height: 100%;
   padding-bottom: 4rem;
 
-
-  //border: 1px solid white;
-
   padding: 1rem;
   margin-bottom: 3rem;
 
@@ -78,8 +75,6 @@ export const Courses = styled.div`
   align-items: center;
 
   > .cousesMaster {
-    //border: 1px solid white;
-
     font-size: 2rem;
 
     display: flex;
@@ -89,7 +84,6 @@ export const Courses = styled.div`
     margin: 1rem 15rem;
 
     > .courses {
-      //border: 1px solid white;
       font-size: 1.7rem;
   
       display: flex;

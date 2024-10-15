@@ -65,7 +65,7 @@ export const Menu = styled.div`
     .menuMaster {
       //border: 1px solid white;
       position: fixed;
-      margin-top: 6rem;
+      margin-top: 5rem;
       width: 100%;
       padding: 1rem;
       background-color: ${({ theme }) => theme.colors.background};
