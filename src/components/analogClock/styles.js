@@ -3,27 +3,28 @@ import styled from 'styled-components';
 //
 export const Project = styled.div`
 
+margin-top: 12rem;
 padding: 2rem;
 display: flex;
 justify-content: center;
 
 .clock {
-  width: 300px;
-  height: 300px;
-  background-color: rgba(255, 255, 255, 0.8);
+  width: 30rem;
+  height: 30rem;
+  background-color: white;
   border-radius: 50%;
   border: 2px solid black;
   position: relative;
 }
 
 .clock .number {
-  --rotation: 0;
   position: absolute;
   width: 100%;
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
+  color: black;
 }
 
 .clock .number1 {--rotation: 30deg;}
@@ -39,47 +40,47 @@ justify-content: center;
 .clock .number11 {--rotation: 330deg;}
 
 .clock .hand {
-  --rotation: 0;
   position: absolute;
   bottom: 50%;
   left: 50%;
-  border: 1px solid white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   transform-origin: bottom;
-  z-index: 10;
-  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+  z-index: 5;
 }
 
-.clock::after {
-  content: "";
-  position: absolute;
-  background-color: black;
-  z-index: 11;
-  width: 15px;
-  height: 15px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.dot {
+  width: 1.4rem;
+  height: 1.4rem;
   border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 10;
 }
 
 .clock .hand.second {
-  width: 3px;
+  width: .3rem;
   height: 45%;
   background-color: red;
 }
 
 .clock .hand.minute {
-  width: 7px;
+  width: .7rem;
   height: 40%;
   background-color: black;
+  margin-left: -0.45rem;
 }
 
 .clock .hand.hour {
-  width: 10px;
-  height: 35%;
+  width: .8rem;
+  height: 25%;
   background-color: black;
+  margin-left: -0.45rem;
 }
 
 `;

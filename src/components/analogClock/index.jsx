@@ -1,13 +1,48 @@
 //
+import { useEffect, useState } from "react";
 import { Project } from './styles';
 //
 export function AnalogClock(){
+  
+  const [secondsDeg, setSecondsDeg] = useState(0);
+  const [minutesDeg, setMinuteDeg] = useState(0);
+  const [hoursDeg, setHoursDeg] = useState(0);
+
+  useEffect(() => {
+      const interval = setInterval(updateTime, 1000);
+      return () => clearInterval(interval);
+    }, []);
+    
+    const updateTime = () => {
+      const date = new Date();
+      const secondsToDeg = (date.getSeconds() / 60) * 360;
+      const minutesToDeg = (date.getMinutes() / 60) * 360;
+      const hoursToDeg = ((date.getHours() % 12) / 12) * 360 + (minutesToDeg / 12);
+
+    setSecondsDeg(secondsToDeg);
+    setMinuteDeg(minutesToDeg);
+    setHoursDeg(hoursToDeg);
+  }
+  
   return(
     <Project>
       <div class="clock">
-        <div class="hand hour" data-hour-hand></div>
-        <div class="hand minute" data-minute-hand></div>
-        <div class="hand second" data-second-hand></div>
+        <div 
+          id="data-hour-hand"
+          class="hand hour" 
+          style={{transform: `rotate(${hoursDeg}deg)`,}}
+        ></div>
+        <div 
+          id="data-minute-hand"
+          class="hand minute"
+          style={{transform: `rotate(${minutesDeg}deg)`,}}
+        ></div>
+        <div 
+          id="data-second-hand"
+          class="hand second"
+          style={{transform: `rotate(${secondsDeg}deg)`,}}
+        ></div>
+        <div className="dot"></div>
         <div class="number number1">1</div>
         <div class="number number2">2</div>
         <div class="number number3">3</div>
