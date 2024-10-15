@@ -3,7 +3,7 @@ import styled from 'styled-components';
 //
 export const Container = styled.div`
   
-  padding: 0rem 25rem 5rem 25rem;
+  padding: 12rem 25rem 5rem 25rem;
   width: 100%;
 
   font-size: 2rem;
@@ -12,7 +12,15 @@ export const Container = styled.div`
   flex-direction: column;
   height: auto;
 
-  
+  .codeblock01 {
+    width: auto;
+    display: flex;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.text};
+  }
 
 `;
 //
