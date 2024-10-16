@@ -40,7 +40,7 @@ export function Login(){
       })
   }
 
-  function handleUpdate(){
+  async function handleUpdate(){
     const updated = {
       email,
       password: newPassword,
