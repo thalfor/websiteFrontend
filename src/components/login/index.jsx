@@ -44,6 +44,10 @@ export function Login(){
   }
 
   async function handleUpdate(){
+    if(!email || !newPassword || !oldPassword){
+      return alert("to signUp all fields must have value.");
+    }
+
     const updated = {
       email,
       password: newPassword,
