@@ -19,6 +19,9 @@ export function Login(){
   const { signIn } = useAuth();
 
   function handleSignIn(){
+    if(!email || !password){
+      return alert("to signUp all fields must have value.");
+    }
     signIn({ email, password });
   }
 
