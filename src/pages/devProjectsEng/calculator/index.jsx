@@ -68,11 +68,11 @@ const codeString05 = `<Button pressedButton="AC" handleClick={resetInput}/>
     <div>
     <MenuProject />
     <Container>
+        <h1>Calculator</h1><br />
       <div className='calculator'>
         <Calculator />
       </div>
       <div className='content'>
-        <h1>Calculator</h1><br />
         <p>
           So I had to re-do this project. And trust me, trully re-do.<br />
           If you haven't checked you can see my <a href="https://github.com/thalfor/JS_calculator" target='_blank'><strong>github calculator project</strong></a> and 
