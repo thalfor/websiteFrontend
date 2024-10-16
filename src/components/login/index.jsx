@@ -124,7 +124,7 @@ export function Login(){
             id='textBox' 
             onChange={(e) => setNewPassword(e.target.value)}
           /><br />
-          <button>
+          <button onClick={handleUpdate}>
             Change Password
           </button>
 
