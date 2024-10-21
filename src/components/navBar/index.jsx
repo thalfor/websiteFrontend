@@ -22,8 +22,8 @@ export function Navbar() {
         </nav>
         <nav className={`navbar ${isOpen ? 'active' : ''}`}>
           <a href="/BioEng">About Me</a>
-          <a href="/BlogMainEng">Blog</a>
           <a href="/HobbiesEng">Hobbies</a>
+          <a href="/BlogMainEng">Blog</a>
           <a href="/ProfessionalExpEng">Career</a>
           <a href="/DevProjectsEng">Portfolio</a>
         </nav>
