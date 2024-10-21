@@ -14,7 +14,7 @@ function AuthProvider({ children }){
 
   async function signIn({ email, password }){
     try {
-      const response = await api.post("/session", { email, password });
+      const response = await api.post("/sessions", { email, password });
       const { user, token } = response.data;
 
       localStorage.setItem("@loginProject:user", JSON.stringify(user));
@@ -22,6 +22,8 @@ function AuthProvider({ children }){
 
       api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
       setData({ user, token });
+
+      alert("logIn successful!");
 
     } catch (error) {
       if(error.response){
@@ -64,7 +66,8 @@ function AuthProvider({ children }){
 
   return(
     <AuthContext.Provider value={{ 
-      singIn, 
+      signIn, 
+      updateProfile, 
       user: data.user
     }}>
       {children}

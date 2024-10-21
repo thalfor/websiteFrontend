@@ -6,7 +6,7 @@ import { useAuth } from '../../hooks/auth';
 //
 export function Login(){
 
-  const { user, updateProfile } = useAuth();
+  const { user, updateProfile, signIn } = useAuth();
 
   // for SignUp and LogIn
   const [email, setEmail] = useState("");
@@ -15,8 +15,6 @@ export function Login(){
   // for Changing Password
   const [newPassword, setNewPassword] = useState("");
   const [oldPassword, setOldPassword] = useState("");
-
-  const { signIn } = useAuth();
 
   function handleSignIn(){
     if(!email || !password){
