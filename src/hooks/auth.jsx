@@ -12,16 +12,16 @@ function useAuth(){
 function AuthProvider({ children }){
   const [data, setData] = useState({});
 
-  async function signIn({ email, password }){
+  async function signIn(params){
     try {
-      const response = await api.post("/sessions", { email, password });
-      const { user, token } = response.data;
+      const response = await api.post("/sessions", params);
+      const { email, token } = response.data;
 
-      localStorage.setItem("@loginProject:user", JSON.stringify(user));
+      localStorage.setItem("@loginProject:email", JSON.stringify(email));
       localStorage.setItem("@loginProject:token", token);
 
       api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-      setData({ user, token });
+      setData({ email, token });
 
       alert("logIn successful!");
 
@@ -34,12 +34,12 @@ function AuthProvider({ children }){
     }
   }
 
-  async function updateProfile({ user }) {
+  async function updateProfile({ email }) {
     try {
-      await api.put("/users", user);
-      localStorage.setItem("@loginProject:user", JSON.stringify(user));
+      await api.put("/users", email);
+      localStorage.setItem("@loginProject:email", JSON.stringify(email));
 
-      setData({ user, token: data.token });
+      setData({ email, token: data.token });
       alert("password updated.");
     } catch(error) {
       if(error.response) {
@@ -52,14 +52,14 @@ function AuthProvider({ children }){
 
   useEffect(() => {
     const token = localStorage.getItem("@loginProject:token");
-    const user = localStorage.getItem("@loginProject:user");
+    const email = localStorage.getItem("@loginProject:user");
 
-    if(token && user){
+    if(token && email){
       api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
       setData({
         token,
-        user: JSON.parse(user)
+        email: JSON.parse(email)
       })
     }
   }, [])
