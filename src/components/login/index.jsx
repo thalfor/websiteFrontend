@@ -29,10 +29,10 @@ export function Login(){
     if(!email || !password){
       return alert("to signUp all fields must have value.");
     }
-
+    
     api.post("/users", { email, password })
       .then(() => {
-        alert("email already exists.");
+        alert("signUp was successful");
       })
       .catch(error => {
         if(error.response){
@@ -40,7 +40,7 @@ export function Login(){
         } else {
           alert("operation not valid.");
         }
-      })
+      });
   }
 
   async function handleUpdate(){
@@ -76,7 +76,7 @@ export function Login(){
           password:<br />
           <input 
             placeholder='password' 
-            type="text" 
+            type="password" 
             id='textBox' 
             onChange={(e) => setPassword(e.target.value)}
           /><br />
