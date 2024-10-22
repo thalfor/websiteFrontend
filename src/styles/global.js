@@ -14,7 +14,9 @@ export default createGlobalStyle`
   }
   
   #root {
-    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
   }
 
   html {
@@ -26,13 +28,13 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.colors.text};
     -webkit-font-smoothing: antialiased;
     font-family: "Afacad Flux";
-    height: calc(100% - 5rem);
+    min-height: 100dvh;
   }
 
   main {
     padding: 0 25rem;
     margin-top: 5rem;
-    height: calc(100% - 68px);
+    flex-grow: 1;
   }
   
 
