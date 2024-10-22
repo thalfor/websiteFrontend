@@ -22,7 +22,6 @@ export function HomeEng(){
         </p>
       </div>
     </Container>
-
   );
 }
 //
