@@ -20,7 +20,7 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.colors.text};
     -webkit-font-smoothing: antialiased;
     font-family: "Afacad Flux";
-    padding: 7rem 25rem 5rem 25rem;
+    padding: 7rem 25rem 15rem 25rem;
   }
 
   /*

@@ -16,6 +16,7 @@ export function Footer() {
         Made by <strong>Thales Fornazari</strong>
       </div>
       <div className='social'>
+        <a href="">my Resume!</a>
         <a href="https://github.com/thalfor" target='_blank'><FaGithub style={linkStyles} /></a>
         <a href="https://www.linkedin.com/in/thalesfornazari/" target='_blank'><FaLinkedin style={linkStyles} /></a>
         <a href="https://www.instagram.com/_thalfor_/" target='_blank'><FaInstagramSquare style={linkStyles} /></a>

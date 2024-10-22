@@ -5,14 +5,12 @@ export const Container = styled.div`
 
   background-color: ${({ theme }) => theme.colors.backgroundComponents};
 
-  //border: 1px solid white;
-
   text-align: left;
-  padding: 1rem;
+  padding: 1rem 25rem 1rem 25rem;
   right: 0;
   left: 0;
   bottom: 0;
-  position: relative;
+  position: absolute;
   margin-top: auto;
 
   display: flex;
@@ -22,11 +20,9 @@ export const Container = styled.div`
 
   .textEnding {
     font-size: 1.8rem;
-    margin-left: 5rem;
   }
 
   .social {
-    margin-right: 5rem;
     font-size: 1.8rem;
     display: flex;
     flex-direction: row;
@@ -36,10 +32,7 @@ export const Container = styled.div`
 
   a {
     text-decoration: none;
-  }
-
-  a:link {
-    color: red;
+    color: ${({ theme }) => theme.colors.text};
   }
 
 `;

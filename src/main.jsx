@@ -16,6 +16,7 @@ createRoot(document.getElementById("root")).render(
       <AuthProvider>
         <Navbar />
         <Routes />
+        <Footer />
       </AuthProvider>
     </ThemeProvider>
   </StrictMode>
