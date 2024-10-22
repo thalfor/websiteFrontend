@@ -13,14 +13,14 @@ export function BlogMainEng(){
         I'll be writting about a lot of things, personal, studies, games, everything! Feel free to check my posts!
       </p>
       <div className='postsMaster'>
-        <Link className='links' to="../BlogMainEng/aboutMeBlogEng">
+        <Link className='links' to="../Blog/AboutMe">
           <div className='post'>
             <img src={meBlogAboutMe} alt="" />
             Here's a bit more about me!
             <div className='datePost'>08/10/2024</div>
           </div>
         </Link>
-        <Link className='links' to="../BlogMainEng/ProfessionalExpBlogEng">
+        <Link className='links' to="../Blog/Career">
           <div className='post'>
             <img src={professional} alt="" />
             Here's a bit more about my professional experience!

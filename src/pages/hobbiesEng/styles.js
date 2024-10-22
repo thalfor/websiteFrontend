@@ -5,7 +5,7 @@ export const Container = styled.div`
 
   //border: 1px solid white;
 
-  padding: 8rem;
+  //padding: 8rem;
   font-size: 2rem;
 
   display: flex;

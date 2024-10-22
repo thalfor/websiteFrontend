@@ -71,7 +71,7 @@ export function ProfessionalExpBlogEng(){
 
       </p>
 
-      <Link className='links' to="../BlogMainEng/">
+      <Link className='links' to="../Blog/">
         Back to Blog
       </Link>
     </Container>

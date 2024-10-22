@@ -6,7 +6,7 @@ export const Container = styled.div`
 //  height: 100vh;
 
   font-size: 2rem;
-  padding: 8rem 8rem 1rem 8rem;
+  //padding: 8rem 8rem 1rem 8rem;
 
   display: flex;
   flex-direction: column;

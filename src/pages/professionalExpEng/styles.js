@@ -7,7 +7,7 @@ export const Container = styled.div`
   min-height: 100%;
 
   width: 100%;
-  padding: 0 6rem;
+  //padding-top: 7rem;
 
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ export const Container = styled.div`
   font-size: 3rem;
 
   h1 {
-    margin-top: 7rem;
+    //margin-top: 7rem;
     margin-bottom: 0;
   }
 

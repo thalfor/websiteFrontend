@@ -21,11 +21,11 @@ export function DevProjectsEng() {
         Here are my current display projects!
       </p>
       <div className='portfolioLinks'>
-        <a href="/DevProjectsEng/DevProjectsWebsiteEng"><strong>This Website</strong></a>
-        <a href="/DevProjectsEng/DevProjectsAnalogClockEng"><strong>Analog Clock</strong></a>
-        <a href="/DevProjectsEng/DevProjectsCalculatorEng"><strong>Calculator</strong></a>
-        <a href="/DevProjectsEng/DevProjectsLoginEng"><strong>Login Page</strong></a>
-        <a href="/DevProjectsEng/DevProjectsUrlShrinkEng"><strong>Url Shrinker</strong></a>
+        <a href="/Portfolio/ThisWebsite"><strong>This Website</strong></a>
+        <a href="/Portfolio/AnalogClock"><strong>Analog Clock</strong></a>
+        <a href="/Portfolio/Calculator"><strong>Calculator</strong></a>
+        <a href="/Portfolio/Login"><strong>Login Page</strong></a>
+        <a href="/Portfolio/UrlShrink"><strong>Url Shrinker</strong></a>
       </div>
     </Container>
     </div>

@@ -5,7 +5,7 @@ export const Container = styled.div`
 
   font-size: 2rem;
   //border: 1px solid white;
-  margin-top: 5rem;
+  //margin-top: 5rem;
   
   display: flex;
   flex-direction: column;
