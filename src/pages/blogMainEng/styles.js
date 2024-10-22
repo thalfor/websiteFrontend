@@ -25,11 +25,12 @@ export const Container = styled.div`
     margin-top: 4rem;
     
     display: grid;
-    grid-template-columns: 30rem 30rem 30rem 30rem;
+    grid-template-columns: 25rem 25rem 25rem 25rem;
     grid-gap: 2rem;
 
     img {
-      height: 20rem;
+      height: 15rem;
+      width: 22rem;
       border-radius: 7%;
     }
 
@@ -37,7 +38,7 @@ export const Container = styled.div`
       border: 1px solid white;
       border-radius: 7%;
 
-      height: 32rem;
+      height: 27rem;
       padding: 1rem;
 
       display: flex;
