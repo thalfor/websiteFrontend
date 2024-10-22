@@ -24,21 +24,21 @@ export function AppRoutes(){
   return(
     <Routes>
       <Route path="/" element={<HomeEng />} />
-      <Route path="/ProfessionalExpEng" element={<ProfessionalExpEng />} />
-      <Route path="/HobbiesEng" element={<HobbiesEng />} />
-      <Route path="/BioEng" element={<BioEng />} />
-      <Route path="/DevProjectsEng" element={<DevProjectsEng />} />
-      <Route path="/DevProjectsEng/DevProjectsWebsiteEng" element={<DevProjectsWebsiteEng />} />
-      <Route path="/DevProjectsEng/DevProjectsAnalogClockEng" element={<DevProjectsAnalogClockEng />} />
-      <Route path="/DevProjectsEng/DevProjectsCalculatorEng" element={<DevProjectsCalculatorEng />} />
-      <Route path="/DevProjectsEng/DevProjectsPostitEng" element={<DevProjectsPostitEng />} />
-      <Route path="/DevProjectsEng/DevProjectsLoginEng" element={<DevProjectsLoginEng />} />
-      <Route path="/DevProjectsEng/DevProjectsUrlShrinkEng" element={<DevProjectsUrlShrinkEng />} />
-      <Route path="/BlogMainEng" element={<BlogMainEng />} />
-      <Route path="/BlogMainEng/AboutMeBlogEng" element={<AboutMeBlogEng />} />
-      <Route path="/BlogMainEng/ProfessionalExpBlogEng" element={<ProfessionalExpBlogEng />} />
-      <Route path="/BlogMainEng/PantanalBlogEng" element={<PantanalBlogEng />} />
-      <Route path="/BlogMainEng/PokemonPainBlogEng" element={<PokemonPainBlogEng />} />
+      <Route path="/Career" element={<ProfessionalExpEng />} />
+      <Route path="/Hobbies" element={<HobbiesEng />} />
+      <Route path="/AboutMe" element={<BioEng />} />
+      <Route path="/Portfolio" element={<DevProjectsEng />} />
+      <Route path="/Portfolio/ThisWebsite" element={<DevProjectsWebsiteEng />} />
+      <Route path="/Portfolio/AnalogClock" element={<DevProjectsAnalogClockEng />} />
+      <Route path="/Portfolio/CalculatorEng" element={<DevProjectsCalculatorEng />} />
+      <Route path="/Portfolio/Postit" element={<DevProjectsPostitEng />} />
+      <Route path="/Portfolio/Login" element={<DevProjectsLoginEng />} />
+      <Route path="/Portfolio/UrlShrink" element={<DevProjectsUrlShrinkEng />} />
+      <Route path="/Blog" element={<BlogMainEng />} />
+      <Route path="/Blog/AboutMe" element={<AboutMeBlogEng />} />
+      <Route path="/Blog/Career" element={<ProfessionalExpBlogEng />} />
+      <Route path="/Blog/Pantanal" element={<PantanalBlogEng />} />
+      <Route path="/Blog/PokemonPain" element={<PokemonPainBlogEng />} />
     </Routes>
   );
 }
