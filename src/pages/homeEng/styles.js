@@ -8,15 +8,19 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  margin-bottom: auto;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
   
   .presentation {
     //border: 1px solid white;
+    //margin-right: 2.5rem;
+    //margin-left: 2.5rem;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50rem;
+    justify-content: center;
+    gap: 40rem;
   }
 
   h1 {
