@@ -34,10 +34,10 @@ export const Container = styled.div`
   .hobbyBox {
     border: 1px solid white;
 
-    height: 40rem;
+    height: 34rem;
     width: 40rem;
     border-radius: 2rem;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
 
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ export const Container = styled.div`
 
   .hobbyBox img {
     border-radius: 10%;
-    height: 21rem;
+    height: 17rem;
     margin-top: 2.5rem;
   }
   
