@@ -37,11 +37,11 @@ export function AppRoutes(){
       <Route path="/Blog" element={<BlogMainEng />} />
       <Route path="/Blog/AboutMe" element={<AboutMeBlogEng />} />
       <Route path="/Blog/Career" element={<ProfessionalExpBlogEng />} />
-      <Route path="/Blog/Pantanal" element={<PantanalBlogEng />} />
-      <Route path="/Blog/PokemonPain" element={<PokemonPainBlogEng />} />
     </Routes>
   );
 }
 //
 //import { ContactEng } from '../pages/contactEng';
 //<Route path="/ContactEng" element={<ContactEng />} />
+//<Route path="/Blog/Pantanal" element={<PantanalBlogEng />} />
+//<Route path="/Blog/PokemonPain" element={<PokemonPainBlogEng />} />

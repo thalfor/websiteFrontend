@@ -21,11 +21,11 @@ export function Navbar() {
           <a href="/">Thales Fornazari</a>
         </nav>
         <nav className={`navbar ${isOpen ? 'active' : ''}`}>
-          <a href="/BioEng">About Me</a>
-          <a href="/HobbiesEng">Hobbies</a>
-          <a href="/BlogMainEng">Blog</a>
-          <a href="/ProfessionalExpEng">Career</a>
-          <a href="/DevProjectsEng">Portfolio</a>
+          <a href="/AboutMe">About Me</a>
+          <a href="/Hobbies">Hobbies</a>
+          <a href="/Blog">Blog</a>
+          <a href="/Career">Career</a>
+          <a href="/Portfolio">Portfolio</a>
         </nav>
       </header>
     </Container>
