@@ -17,9 +17,8 @@ export function HomeEng(){
         <h1>Coming Soon:</h1>
       <div className='comingSoon'>
         <p>
-          - Projects in my Portfolio.<br />
-          - Website fully functional with mobile devices.<br />
-          - Footer
+          - URL Shrinker on my Portfolio!<br />
+          - QR Code generator on my PortFolio!<br />
         </p>
       </div>
     </Container>
