@@ -67,7 +67,7 @@ export const Container = styled.div`
       justify-content: right;
       padding: 0;
       top: unset;
-      margin-right: 5rem;
+      margin-right: 22rem;
     }
 
     .navHome {
@@ -78,7 +78,7 @@ export const Container = styled.div`
       justify-content: left;
       padding: 0;
       top: unset;
-      margin-left: 5rem;
+      margin-left: 22rem;
     }
 
     a {
