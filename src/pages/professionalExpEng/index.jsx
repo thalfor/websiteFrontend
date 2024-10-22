@@ -79,7 +79,11 @@ export function ProfessionalExpEng() {
 
         <div className='cousesMaster'>
           <div className='courses'>
-          <strong>RocketSeat Explorer - 2024</strong>
+            <strong>RocketSeat Node.js Expert - on going</strong>
+          </div>
+
+          <div className='courses'>
+            <strong>RocketSeat Explorer - 2024</strong>
             HTML & CSS.<br></br>
             Javascript.<br></br>
             Git & Github.<br></br>
@@ -90,12 +94,12 @@ export function ProfessionalExpEng() {
           </div>
             
           <div className='courses'>
-          <strong>FreeCodeCamp - 2023</strong>
+            <strong>FreeCodeCamp - 2023</strong>
             JavaScript Algorithms and Data Structures.
           </div>
             
           <div className='courses'>
-          <strong>Google - 2022</strong>
+            <strong>Google - 2022</strong>
             Project initiation: Starting a successful project.<br></br>
             Foundations of Project Management.
           </div>
