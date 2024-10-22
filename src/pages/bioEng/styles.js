@@ -39,18 +39,18 @@ export const Container = styled.div`
 
     img:nth-child(1) {
       border-radius: 20%;
-      height: 40.7rem;
-      width: 40.7rem;
+      height: 30.7rem;
+      width: 30.7rem;
       padding: 3rem;
     }
     img:nth-child(3) {
       border-radius: 20%;
-      height: 40.7rem;
+      height: 30.7rem;
       padding: 3rem;
     }
     img:nth-child(4) {
       border-radius: 20%;
-      height: 40.7rem;
+      height: 30.7rem;
       padding: 3rem;
     }
   }
