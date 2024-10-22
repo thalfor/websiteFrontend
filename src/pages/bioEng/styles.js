@@ -22,7 +22,7 @@ export const Container = styled.div`
     align-items: center;
     gap: 10rem;
 
-    padding: 3rem;
+    padding: 1.5rem;
   }
 
   .master .bio {
