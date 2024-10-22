@@ -7,10 +7,10 @@ export const Container = styled.div`
 
   text-align: left;
   padding: 1rem 25rem 1rem 25rem;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  position: absolute;
+  //right: 0;
+  //left: 0;
+  //bottom: 0;
+  //position: absolute;
   margin-top: auto;
 
   display: flex;

@@ -65,12 +65,13 @@ export const Container = styled.div`
       flex-direction: row;
       position: relative;
       justify-content: right;
-      padding: 0;
+      gap: 2rem;
       top: unset;
       padding-right: 25rem;
     }
 
     .navHome {
+      //border: 1px solid white;
       width: 100%;
       display: flex;
       flex-direction: row;
@@ -84,10 +85,14 @@ export const Container = styled.div`
     a {
       text-decoration: none;
       position: relative;
-      margin-right: 2rem;
-      margin-left: 2rem;
+      //margin-right: 2rem;
+      //margin-left: 2rem;
       margin-bottom: .2rem;
       color: ${({ theme }) => theme.colors.text};
+    }
+
+    .homeLink {
+
     }
 
     a::before{

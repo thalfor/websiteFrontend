@@ -18,7 +18,7 @@ export function Navbar() {
         </div>
 
         <nav className='navHome'>
-          <a href="/">Thales Fornazari</a>
+          <a className='homeLink' href="/">Thales Fornazari</a>
         </nav>
         <nav className={`navbar ${isOpen ? 'active' : ''}`}>
           <a href="/AboutMe">About Me</a>

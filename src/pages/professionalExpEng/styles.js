@@ -3,7 +3,7 @@ import styled from 'styled-components';
 //
 export const Container = styled.div`
 
-  position: relative;
+  //position: relative;
   min-height: 100%;
 
   width: 100%;
@@ -61,8 +61,8 @@ export const Courses = styled.div`
     box-sizing: border-box;
   }
 
-  position: relative;
-  min-height: 100%;
+  //position: relative;
+  //min-height: 100%;
   padding-bottom: 4rem;
 
   padding: 1rem;

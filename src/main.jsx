@@ -15,7 +15,9 @@ createRoot(document.getElementById("root")).render(
       <GlobalStyles/>
       <AuthProvider>
         <Navbar />
-        <Routes />
+        <main>
+          <Routes />
+        </main>
         <Footer />
       </AuthProvider>
     </ThemeProvider>
