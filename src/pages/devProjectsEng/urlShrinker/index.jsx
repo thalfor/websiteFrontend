@@ -16,7 +16,7 @@ export function DevProjectsUrlShrinkEng(){
     <Container>
       <h1>Url Shrink</h1>
       <UrlShrinker />
-      test
+      Soon to be!
       <div className='codeblock'>
         <SyntaxHighlighter lineProps={{style: {wordBreak: 'break-all', whiteSpace: 'pre-wrap', flexWrap: 'wrap'}}} style={a11yDark} wrapLines={true} language="jsx">
           {codeString01}
