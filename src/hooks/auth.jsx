@@ -34,18 +34,35 @@ function AuthProvider({ children }){
     }
   }
 
-  async function updateProfile({ email }) {
+  async function updateProfile(params) {
     try {
-      await api.put("/users", email);
-      localStorage.setItem("@loginProject:email", JSON.stringify(email));
 
-      setData({ email, token: data.token });
-      alert("password updated.");
-    } catch(error) {
+      const response = await api.post("/sessions", params);
+      const { email, token } = response.data;
+
+      localStorage.setItem("@loginProject:email", JSON.stringify(email));
+      localStorage.setItem("@loginProject:token", token);
+      api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+
+/*
+      const updated = {
+        email,
+        password: newPassword,
+        passwordOld: oldPassword,
+      }
+      const userUpdated = Object.assign(updated);
+
+      await api.put("/users", userUpdated);
+      localStorage.setItem("@rocketnotes:user", JSON.stringify(params));
+
+      setData({ userUpdated, token: data.token });
+      alert("Perfil atualizado!");
+*/
+    } catch(error){
       if(error.response) {
         alert(error.response.data.message);
       } else {
-        alert("something went wrong.");
+        alert("não foi possível atualizar o perfil.");
       }
     }
   }

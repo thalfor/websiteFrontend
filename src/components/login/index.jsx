@@ -6,7 +6,7 @@ import { useAuth } from '../../hooks/auth';
 //
 export function Login(){
 
-  const { user, updateProfile, signIn } = useAuth();
+  const { updateProfile, signIn } = useAuth();
 
   // for SignUp and LogIn
   const [email, setEmail] = useState("");
@@ -43,18 +43,17 @@ export function Login(){
 
   async function handleUpdate(){
     if(!email || !newPassword || !oldPassword){
-      return alert("to signUp all fields must have value.");
+      return alert("to update password all fields must have value.");
     }
-
+/*
     const updated = {
       email,
       password: newPassword,
       passwordOld: oldPassword,
     }
-    
-    const userUpdated = Object.assign(user, updated);
-
-    await updateProfile({ userUpdated });
+    const userUpdated = Object.assign(updated);
+*/
+    await updateProfile({ email, oldPassword });
 
   }
 
@@ -105,6 +104,12 @@ export function Login(){
           </button>
 
         </div>
+      </div>
+    </Project>
+  );
+};
+//
+/*
         <div className='boxChange'>
           <h1>Change Password</h1><br />
 
@@ -132,10 +137,5 @@ export function Login(){
           <button onClick={handleUpdate}>
             Change Password
           </button>
-
         </div>
-      </div>
-    </Project>
-  );
-};
-//
+*/
