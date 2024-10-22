@@ -110,9 +110,10 @@ function handleSignIn(){
       <h1>LogIn</h1>
       <Login />
       <p>
-        This is a project that shows a little bit of backend application. You can signUp and then LogIn and it will save your password and email.<br />
+        This is a project that shows a little bit of backend application. You can signUp and then LogIn and it will save your password and email.
+        I used Insomnia and BeeKeeper for my backend.<br />
         For this to work I created a simple backend application that stores the user credentials checking if the same already exists. 
-        It's also divided into Backend and Frontend. <br /><br />
+        It's also divided into Backend and Frontend, here's some of it. <br /><br />
         Backend:<br />
         <div className='codeblock'>
           <SyntaxHighlighter lineProps={{style: {wordBreak: 'break-all', whiteSpace: 'pre-wrap', flexWrap: 'wrap'}}} style={a11yDark} wrapLines={true} language="jsx">
@@ -146,6 +147,9 @@ function handleSignIn(){
         </div>
         <br />
         <br />
+        Now this is a project that will have more updates, i'm currently creating a Change Password box so you can try and change it.<br /><br />
+
+        I hope you have enjoyed the reading for i sure did enjoyed writting! See ya!
 
 
 
