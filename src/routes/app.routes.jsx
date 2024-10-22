@@ -30,8 +30,7 @@ export function AppRoutes(){
       <Route path="/Portfolio" element={<DevProjectsEng />} />
       <Route path="/Portfolio/ThisWebsite" element={<DevProjectsWebsiteEng />} />
       <Route path="/Portfolio/AnalogClock" element={<DevProjectsAnalogClockEng />} />
-      <Route path="/Portfolio/CalculatorEng" element={<DevProjectsCalculatorEng />} />
-      <Route path="/Portfolio/Postit" element={<DevProjectsPostitEng />} />
+      <Route path="/Portfolio/Calculator" element={<DevProjectsCalculatorEng />} />
       <Route path="/Portfolio/Login" element={<DevProjectsLoginEng />} />
       <Route path="/Portfolio/UrlShrink" element={<DevProjectsUrlShrinkEng />} />
       <Route path="/Blog" element={<BlogMainEng />} />
@@ -45,3 +44,4 @@ export function AppRoutes(){
 //<Route path="/ContactEng" element={<ContactEng />} />
 //<Route path="/Blog/Pantanal" element={<PantanalBlogEng />} />
 //<Route path="/Blog/PokemonPain" element={<PokemonPainBlogEng />} />
+//<Route path="/Portfolio/Postit" element={<DevProjectsPostitEng />} />
