@@ -26,7 +26,7 @@ export const Container = styled.div`
     
     display: grid;
     grid-template-columns: 25rem 25rem 25rem 25rem;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
 
     img {
       height: 15rem;
@@ -39,6 +39,7 @@ export const Container = styled.div`
       border-radius: 7%;
 
       height: 27rem;
+      width: 24rem;
       padding: 1rem;
 
       display: flex;
