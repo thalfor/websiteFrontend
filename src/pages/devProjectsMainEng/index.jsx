@@ -25,7 +25,7 @@ export function DevProjectsEng() {
         <a href="/Portfolio/AnalogClock"><strong>Analog Clock</strong></a>
         <a href="/Portfolio/Calculator"><strong>Calculator</strong></a>
         <a href="/Portfolio/Login"><strong>Login Page</strong></a>
-        <a href="/Portfolio/UrlShrink"><strong>Url Shrinker</strong></a>
+        <a href="/Portfolio/UrlShrink"><strong>Url Shrinker (on going)</strong></a>
       </div>
     </Container>
     </div>
