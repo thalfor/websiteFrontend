@@ -23,10 +23,10 @@ export function MenuProject() {
           <a href="/Portfolio/AnalogClock" >Analog Clock</a>
           <a href="/Portfolio/Calculator" >Calculator</a>
           <a href="/Portfolio/Login" >Login</a>
-          <a href="/Portfolio/UrlShrink" >URL Shrink</a>
         </div>
       </div>
     </Menu>
   );
 }
 //
+//<a href="/Portfolio/UrlShrink" >URL Shrink</a>
