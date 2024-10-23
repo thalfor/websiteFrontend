@@ -16,7 +16,7 @@ export const Container = styled.div`
 
   .textEnding {
     font-size: 1.5rem;
-    margin: 0;
+    margin: auto;
   }
 
   .social {
@@ -49,6 +49,7 @@ export const Container = styled.div`
 
     .textEnding {
       font-size: 1.8rem;
+      margin: 0;
       //border: 1px solid white;
     }
 
