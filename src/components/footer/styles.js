@@ -49,7 +49,7 @@ export const Container = styled.div`
 
     .textEnding {
       font-size: 1.8rem;
-      border: 1px solid white;
+      //border: 1px solid white;
     }
 
     .social {
