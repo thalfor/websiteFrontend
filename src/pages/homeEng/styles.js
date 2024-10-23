@@ -53,8 +53,8 @@ export const Container = styled.div`
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
-      gap: 40rem;
+      justify-content: space-between;
+      gap: 15rem;
     }
 
     h1 {
