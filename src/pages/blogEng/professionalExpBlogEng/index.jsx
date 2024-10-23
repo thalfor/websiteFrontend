@@ -10,7 +10,7 @@ export function ProfessionalExpBlogEng(){
 
       <p>Here's a bit more about my professional experience! <br /></p>
 
-      <p>
+      <p className='paragraph'>
         
         My professional experience began during my time at university, where I earned a bachelor's degree in Physics. <br />
         Initially, I intended to pursue a career as an academic professor focused on research, but I quickly realized that path wasn't the right fit for me. 

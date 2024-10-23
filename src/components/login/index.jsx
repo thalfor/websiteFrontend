@@ -65,6 +65,7 @@ export function Login(){
           <h1>sign Up</h1><br />
           email:<br />
           <input 
+            className='inputAll'
             placeholder='email' 
             type="text" 
             id='textBox' 
@@ -72,6 +73,7 @@ export function Login(){
           /><br />
           password:<br />
           <input 
+            className='inputAll'
             placeholder='password' 
             type="password" 
             id='textBox' 
@@ -87,6 +89,7 @@ export function Login(){
           <h1>log In</h1><br />
           email:<br />
           <input 
+            className='inputAll'
             placeholder='email' 
             type="text" 
             id='textBox' 
@@ -94,6 +97,7 @@ export function Login(){
           /><br />
           password:<br />
           <input 
+            className='inputAll'
             placeholder='password' 
             type="password" 
             id='textBox' 
