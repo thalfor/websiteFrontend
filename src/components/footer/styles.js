@@ -16,7 +16,7 @@ export const Container = styled.div`
 
   .textEnding {
     font-size: 1.5rem;
-    margin: auto;
+    margin: 0;
   }
 
   .social {
@@ -37,6 +37,7 @@ export const Container = styled.div`
   @media(min-width: 768px){
     background-color: ${({ theme }) => theme.colors.backgroundComponents};
 
+    
     text-align: left;
     padding: 1rem 25rem 1rem 25rem;
     margin-top: auto;
@@ -48,6 +49,7 @@ export const Container = styled.div`
 
     .textEnding {
       font-size: 1.8rem;
+      border: 1px solid white;
     }
 
     .social {

@@ -71,6 +71,19 @@ export const Container = styled.div`
       display: none;
     }
 
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+      background-color: ${({ theme }) => theme.colors.backgroundComponents};
+      display: flex;
+      justify-content: flex-end;
+      height: 5rem;
+      z-index: 1000;
+    }
+    
     .navbar {
       width: 100%;
       display: flex;
