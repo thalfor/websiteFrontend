@@ -48,6 +48,7 @@ export const Container = styled.div`
     
     > p {
       margin-top: 3rem;
+      font-size: 2rem;
     }
 
     > p a {

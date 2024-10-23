@@ -60,7 +60,7 @@ export const Container = styled.div`
     width: 100%;
     font-size: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 
     h1 {

@@ -37,36 +37,34 @@ export const Menu = styled.div`
     .menu-icon {
       display: none;
     }
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
     .menuMaster {
-      //border: 1px solid white;
-      position: fixed;
-      margin-top: 5rem;
-      width: 100%;
       padding: 1rem;
       background-color: ${({ theme }) => theme.colors.background};
       display: flex;
       flex-direction: row;
       justify-content: center;
+      align-items: center;
       font-size: 2.5rem;
 
       a {
-        //border: 1px solid white;
         text-decoration: none;
         color: ${({ theme }) => theme.colors.text};
       }
     }
 
     .menuProject {
-      //border: 1px solid white;
-      width: 100%;
-      position: relative;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+      gap: 16rem;
       background-color: ${({ theme }) => theme.colors.background};
-      margin: 0 30rem
     }
   }
 

@@ -141,7 +141,7 @@ export const Courses = styled.div`
     align-items: center;
 }
 
-  @media(min-width:768px){
+  @media(min-width: 768px){
 
     padding-bottom: 4rem;
 
@@ -168,6 +168,7 @@ export const Courses = styled.div`
     
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         align-items: right;
     
         width: 27rem;

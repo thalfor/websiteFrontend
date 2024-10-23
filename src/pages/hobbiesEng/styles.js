@@ -62,6 +62,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    padding-bottom: 3rem;
 
     h1 {
       font-size: 6rem;
@@ -88,7 +89,7 @@ h1 {
       width: 40rem;
       border-radius: 2rem;
       padding: 2rem 2rem 0 2rem;
-
+      font-size: 2rem;
       display: flex;
       flex-direction: column;
       align-items: center;
