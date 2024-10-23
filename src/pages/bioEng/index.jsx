@@ -20,7 +20,7 @@ export function BioEng(){
         </div>
       </div>
       <div className='images'>
-        <img src={mapa} alt="" /><br />
+        <img src={mapa} alt="" />
         <img src={me} alt="" />
         <img src={dog} alt="" />
       </div>
