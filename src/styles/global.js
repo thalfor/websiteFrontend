@@ -16,7 +16,7 @@ export default createGlobalStyle`
   #root {
     display: flex;
     flex-direction: column;
-    min-height: 100dvh;
+    height: 100vh;
   }
 
   html {
@@ -28,15 +28,40 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.colors.text};
     -webkit-font-smoothing: antialiased;
     font-family: "Afacad Flux";
-    min-height: 100dvh;
+    height: 100vh;
   }
 
   main {
-    padding: 0 25rem;
+    padding: 1rem 2rem;
     margin-top: 5rem;
     flex-grow: 1;
   }
-  
+
+  @media (min-width: 768px) {
+    main {
+      padding: 0 25rem;
+      margin-top: 5rem;
+      flex-grow: 1;
+    }
+    #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      background-color: ${({ theme }) => theme.colors.background};
+      color: ${({ theme }) => theme.colors.text};
+      -webkit-font-smoothing: antialiased;
+      font-family: "Afacad Flux";
+      min-height: 100dvh;
+    }
+
+  }
 
   /*
   ::-webkit-scrollbar {

@@ -3,34 +3,25 @@ import styled from 'styled-components';
 //
 export const Container = styled.div`
 
-  //padding-top: 7.8rem;
-  
   display: flex;
   flex-direction: column;
 
-  margin-right: 2.5rem;
-  margin-left: 2.5rem;
-  
   .presentation {
     //border: 1px solid white;
-    //margin-right: 2.5rem;
-    //margin-left: 2.5rem;
-
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40rem;
+    gap: 2rem;
   }
 
   h1 {
-    font-size: 3.2rem;
-    width: 50%;    
+    font-size: 2rem;
   }
 
   img {
     border-radius: 50%;
-    height: 30rem;
+    height: 20rem;
   }
 
   p {
@@ -38,7 +29,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 
-    font-size: 2.5rem;
+    font-size: 2rem;
 
     padding: 2rem;
   }
@@ -49,6 +40,49 @@ export const Container = styled.div`
     align-items: left;
   }
 
+
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    
+    .presentation {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 40rem;
+    }
+
+    h1 {
+      font-size: 3.2rem;
+      width: 50%;    
+    }
+
+    img {
+      border-radius: 50%;
+      height: 30rem;
+    }
+
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 2.5rem;
+
+      padding: 2rem;
+    }
+
+    p:last-child{
+      display: flex;
+      justify-content: left;
+      align-items: left;
+    }
+  }
   
   `;
 //

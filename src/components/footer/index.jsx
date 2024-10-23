@@ -13,7 +13,7 @@ export function Footer() {
     <Container>
       <div className='textEnding'>
         Don't forget to check the links!<br></br>
-        Made by <strong>Thales Fornazari</strong>
+        by <strong>Thales Fornazari</strong>
       </div>
       <div className='social'>
         <a href="">my Resume!</a>

@@ -9,7 +9,7 @@ export const Container = styled.div`
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 39rem;
     padding: 1rem;
     background-color: ${({ theme }) => theme.colors.backgroundComponents};
     display: flex;
@@ -30,6 +30,18 @@ export const Container = styled.div`
   .menu-icon img {
     width: 3rem;
     height: 3rem;
+  }
+
+  .navHome {
+    //border: 1px solid white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: left;
+    padding: 0;
+    top: unset;
+    padding-left: .5rem;
   }
 
   .navbar {
