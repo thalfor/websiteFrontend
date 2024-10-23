@@ -90,7 +90,7 @@ export const Container = styled.div`
       flex-direction: row;
       position: relative;
       justify-content: right;
-      gap: 2rem;
+      gap: 3rem;
       top: unset;
       padding-right: 25rem;
     }

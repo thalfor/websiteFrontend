@@ -21,7 +21,7 @@ export function Navbar() {
           <a className='homeLink' href="/">Thales Fornazari</a>
         </nav>
         <nav className={`navbar ${isOpen ? 'active' : ''}`}>
-          <a href="/AboutMe">About Me</a>
+          <a href="/AboutMe">AboutMe</a>
           <a href="/Hobbies">Hobbies</a>
           <a href="/Blog">Blog</a>
           <a href="/Career">Career</a>
