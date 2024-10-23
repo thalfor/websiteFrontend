@@ -55,7 +55,7 @@ export function ProfessionalExpEng() {
           <div className="job">
             <strong>Equifax | Boa Vista</strong><br></br>
             May 2013 to Nov 2013<br></br>
-            <strong><u>Role:</u></strong><br></br> Intern / Data Analyst<br></br>
+            <strong><u>Role:</u></strong><br></br> Intern - Data Analyst<br></br>
             <strong><u>Key Focus:</u></strong><br></br> Built credit score evaluations using SQL and SAS, assisting companies in loan decisions and debt recovery. Successfully deployed data solutions into production.<br></br>
             <strong><u>Tools:</u></strong><br></br> SQL, SAS.
           </div>
