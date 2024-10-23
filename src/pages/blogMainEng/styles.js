@@ -71,7 +71,7 @@ export const Container = styled.div`
 
     .postsMaster {
 
-      font-size: 2rem;
+      font-size: 1.8rem;
 
       margin-top: 4rem;
       
@@ -81,7 +81,7 @@ export const Container = styled.div`
 
       img {
         height: 15rem;
-        width: 22rem;
+        width: 20rem;
         border-radius: 7%;
       }
 
@@ -90,7 +90,7 @@ export const Container = styled.div`
         border-radius: 7%;
 
         height: 27rem;
-        width: 24rem;
+        width: 22.3rem;
         padding: 1rem;
 
         display: flex;

@@ -61,6 +61,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     gap: 3rem;
     padding-bottom: 3rem;
 
@@ -78,7 +79,7 @@ h1 {
 
     .masterHobbyBox {
       display: grid;
-      grid-template-columns: 40rem 40rem 40rem;
+      grid-template-columns: 36rem 36rem 36rem;
       grid-gap: 1rem;    
     }
 
@@ -86,7 +87,7 @@ h1 {
       border: 1px solid white;
 
       height: 29rem;
-      width: 39rem;
+      width: 36rem;
       border-radius: 2rem;
       padding: 0 1.5rem 0 1.5rem;
       font-size: 1.7rem;
