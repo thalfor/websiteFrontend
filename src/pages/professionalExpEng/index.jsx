@@ -1,12 +1,48 @@
 //
 import { Container, Courses } from './styles'; 
 //
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
 export function ProfessionalExpEng() {
 
+  const [sliderSettings, setSliderSettings] = useState({
+    className: "center",
+    centerMode: true,
+    infinite: true,
+    centerPadding: "0rem",
+    slidesToShow: 3,
+    speed: 500
+  });
+
+  useEffect(() => {
+    // Function to handle screen width change
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setSliderSettings({
+          ...sliderSettings,
+          slidesToShow: 1, // Show 1 slide on mobile
+          centerPadding: "0rem" // Add padding for better UX
+        });
+      } else {
+        setSliderSettings({
+          ...sliderSettings,
+          slidesToShow: 3, // Restore 3 slides on desktop
+          centerPadding: "0rem"
+        });
+      }
+    };
+
+    // Attach event listener for resizing
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Call once on component mount
+
+    // Cleanup event listener on unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+/*
   const settings = {
     className: "center",
     centerMode: true,
@@ -15,7 +51,7 @@ export function ProfessionalExpEng() {
     slidesToShow: 3,
     speed: 500
   };
-
+*/
   return (
     <div>
 
@@ -23,7 +59,7 @@ export function ProfessionalExpEng() {
 
         <h1>Career</h1>
 
-        <Slider {...settings}>
+        <Slider {...sliderSettings}>
           <div className="job">
             <strong>Pan Bank</strong><br></br>
             Feb 2023 to May 2024<br></br>

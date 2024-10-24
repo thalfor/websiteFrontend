@@ -17,7 +17,7 @@ export const Container = styled.div`
   }
 
   > div {
-    width: 85rem;
+    width: 30rem;
     height: 45rem;
 
     font-size: 1.5rem;
@@ -30,12 +30,12 @@ export const Container = styled.div`
 
   .job {
     border: 1px solid white;
-
+    font-size: 1.4rem;
     padding: 1rem;
     border-radius: 1rem;
     
-    height: 35rem;
-    width: 13rem;
+    height: 30rem;
+    //width: 1rem;
   }
 
   .slick-slide > div {
@@ -43,7 +43,7 @@ export const Container = styled.div`
   }
 
   .slick-center {
-    transform: scale(1.05);
+    transform: scale(1.00);
     transition: transform 0.6s ease;
     font-size: 1.6rem;
   }
