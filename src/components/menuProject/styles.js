@@ -63,7 +63,7 @@ export const Menu = styled.div`
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      gap: 16rem;
+      gap: 10rem;
       background-color: ${({ theme }) => theme.colors.background};
     }
   }
