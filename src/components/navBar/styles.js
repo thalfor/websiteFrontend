@@ -9,7 +9,7 @@ export const Container = styled.div`
     position: fixed;
     top: 0;
     left: 0;
-    width: 39rem;
+    width: 100%;
     padding: 1rem;
     background-color: ${({ theme }) => theme.colors.backgroundComponents};
     display: flex;
