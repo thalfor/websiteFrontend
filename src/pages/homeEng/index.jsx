@@ -18,7 +18,7 @@ export function HomeEng(){
       <div className='comingSoon'>
         <p>
           - URL Shrinker on my Portfolio!<br />
-          - QR Code generator on my PortFolio!<br />
+          - QR Code generator on my Portfolio!<br />
         </p>
       </div>
     </Container>
