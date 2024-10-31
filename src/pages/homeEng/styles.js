@@ -34,6 +34,12 @@ export const Container = styled.div`
     padding: 2rem;
   }
 
+  p:nth-child(4){
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
   p:last-child{
     display: flex;
     justify-content: left;
@@ -76,6 +82,12 @@ export const Container = styled.div`
       font-size: 2.5rem;
 
       padding: 2rem;
+    }
+
+    p:nth-child(4){
+      display: flex;
+      justify-content: left;
+      align-items: left;
     }
 
     p:last-child{
