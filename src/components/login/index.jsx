@@ -6,15 +6,16 @@ import { useAuth } from '../../hooks/auth';
 //
 export function Login(){
 
-  const { updateProfile, signIn } = useAuth();
+  //const { updateProfile, signIn } = useAuth();
+  const { signIn } = useAuth();
 
   // for SignUp and LogIn
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   // for Changing Password
-  const [newPassword, setNewPassword] = useState("");
-  const [oldPassword, setOldPassword] = useState("");
+  //const [newPassword, setNewPassword] = useState("");
+  //const [oldPassword, setOldPassword] = useState("");
 
   function handleSignIn(){
     if(!email || !password){
@@ -40,23 +41,21 @@ export function Login(){
         }
       });
   }
-
+/*
   async function handleUpdate(){
     if(!email || !newPassword || !oldPassword){
       return alert("to update password all fields must have value.");
     }
-/*
     const updated = {
       email,
       password: newPassword,
       passwordOld: oldPassword,
     }
     const userUpdated = Object.assign(updated);
-*/
     await updateProfile({ email, oldPassword });
 
   }
-
+*/
   return(
     <Project>
       <div className='wrapper'>

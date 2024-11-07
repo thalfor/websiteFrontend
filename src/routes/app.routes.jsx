@@ -10,15 +10,12 @@ import { DevProjectsEng } from '../pages/devProjectsMainEng';
 import { DevProjectsWebsiteEng } from '../pages/devProjectsEng/thisWebsite';
 import { DevProjectsAnalogClockEng } from '../pages/devProjectsEng/analogClock';
 import { DevProjectsCalculatorEng } from '../pages/devProjectsEng/calculator';
-import { DevProjectsPostitEng } from '../pages/devProjectsEng/postit';
 import { DevProjectsLoginEng } from '../pages/devProjectsEng/login';
 import { DevProjectsUrlShrinkEng } from '../pages/devProjectsEng/urlShrinker';
 //
 import { BlogMainEng } from '../pages/blogMainEng';
 import { AboutMeBlogEng } from '../pages/blogEng/aboutMeBlogEng';
 import { ProfessionalExpBlogEng } from '../pages/blogEng/professionalExpBlogEng';
-import { PantanalBlogEng } from '../pages/blogEng/pantanalBlogEng';
-import { PokemonPainBlogEng } from '../pages/blogEng/pokemonPainBlogEng';
 //
 export function AppRoutes(){
   return(
@@ -40,6 +37,9 @@ export function AppRoutes(){
   );
 }
 //
+//import { DevProjectsPostitEng } from '../pages/devProjectsEng/postit';
+//import { PantanalBlogEng } from '../pages/blogEng/pantanalBlogEng';
+//import { PokemonPainBlogEng } from '../pages/blogEng/pokemonPainBlogEng';
 //import { ContactEng } from '../pages/contactEng';
 //<Route path="/ContactEng" element={<ContactEng />} />
 //<Route path="/Blog/Pantanal" element={<PantanalBlogEng />} />

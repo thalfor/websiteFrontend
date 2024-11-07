@@ -8,7 +8,7 @@ export function DevProjectsEng() {
       <h1>My Portfolio</h1>
       <p>
         Welcome!<br />
-        Here's my ongoing portfolio, feel free to check it out! In each page there's a description of what was done as well as the project itself.<br />
+        Here&apos;s my ongoing portfolio, feel free to check it out! In each page there&apos;s a description of what was done as well as the project itself.<br />
         This page will grow as I grow as a JavaScript developer. I do not post every project that I make here, just the ones that I find more relevant at the moment.
         <br />
         <br />
@@ -25,6 +25,7 @@ export function DevProjectsEng() {
         <a href="/Portfolio/AnalogClock"><strong>Analog Clock</strong></a>
         <a href="/Portfolio/Calculator"><strong>Calculator</strong></a>
         <a href="/Portfolio/Login"><strong>Login Page</strong></a>
+        <a href="/Portfolio/UrlShrink"><strong>UrlShrink</strong></a>
       </div>
     </Container>
     </div>

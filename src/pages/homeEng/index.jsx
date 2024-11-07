@@ -22,7 +22,6 @@ export function HomeEng(){
         <h1>Coming Soon:</h1>
       <div className='comingSoon'>
         <p>
-          - URL Shrinker!<br />
           - QR Code generator!<br />
         </p>
       </div>
