@@ -111,7 +111,7 @@ function handleSignIn(){
       <Login />
       <p>
         This is a project that shows a little bit of backend application. You can signUp and then LogIn and it will save your password and email.
-        I used Insomnia and BeeKeeper for my backend.<br />
+        I used Express and Knex for my backend and Insomnia and BeeKeeper to check it.<br />
         To try it i sugest you type in a fictional email like "yourname@email.com" and put it a simple password. It may take a few seconds.<br />
         For this to work I created a simple backend application that stores the user credentials checking if the same already exists. 
         It's also divided into Backend and Frontend, here's some of it. <br /><br />
