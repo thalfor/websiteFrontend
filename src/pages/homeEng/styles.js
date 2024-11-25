@@ -61,7 +61,7 @@ export const Container = styled.div`
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      gap: 15rem;
+      gap: 10rem;
     }
 
     h1 {
