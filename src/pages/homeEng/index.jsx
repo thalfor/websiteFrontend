@@ -25,7 +25,7 @@ export function HomeEng(){
           - At this moment I&apos;m creating a full Real Estate website for a potential client, with a backend integrated using services such as Cloudinary. <br />
           - Personal Finance app.
           - A website that shows where are the places without electrical energy.
-          - QR Code generator.<br />
+          - A QR Code generator.<br />
         </p>
       </div>
     </Container>
