@@ -16,13 +16,16 @@ export function HomeEng(){
       </p>
         <h1>What&apos;s going on now?</h1>
         <p>
-          So i&apos;m currently studying a specific Backend Node.js course and honestly, it is what i really want to work with.<br />
-          For now i&apos;ll keep with it along doing some personal projects to practice what i&apos;m learning!
+          So i&apos;m currently developing some backend projects with Node.js using Fastify to keep up on learning and practicing since it is what i really want to work with.<br />
+          Some are done, such as a URL Shrinker, and you can check it on my Portfolio!
         </p>
-        <h1>Coming Soon:</h1>
+        <h1>On Going:</h1>
       <div className='comingSoon'>
         <p>
-          - QR Code generator!<br />
+          - At this moment I&apos;m creating a full Real Estate website for a potential client, with a backend integrated using services such as Cloudinary. <br />
+          - Personal Finance app.
+          - A website that shows where are the places without electrical energy.
+          - QR Code generator.<br />
         </p>
       </div>
     </Container>
