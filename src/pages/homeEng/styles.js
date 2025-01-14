@@ -45,6 +45,11 @@ export const Container = styled.div`
     justify-content: left;
     align-items: left;
   }
+  
+  > a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.text};
+  }
 
 
 
@@ -95,6 +100,12 @@ export const Container = styled.div`
       justify-content: left;
       align-items: left;
     }
+
+    > a {
+      text-decoration: none;
+      color: ${({ theme }) => theme.colors.text};
+    }
+
   }
   
   `;
