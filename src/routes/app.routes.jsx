@@ -12,6 +12,7 @@ import { DevProjectsAnalogClockEng } from '../pages/devProjectsEng/analogClock';
 import { DevProjectsCalculatorEng } from '../pages/devProjectsEng/calculator';
 import { DevProjectsLoginEng } from '../pages/devProjectsEng/login';
 import { DevProjectsUrlShrinkEng } from '../pages/devProjectsEng/urlShrinker';
+import { DevProjectsTwitterScraping } from '../pages/devProjectsEng/twiiterScraping';
 //
 import { BlogMainEng } from '../pages/blogMainEng';
 import { AboutMeBlogEng } from '../pages/blogEng/aboutMeBlogEng';
@@ -30,6 +31,7 @@ export function AppRoutes(){
       <Route path="/Portfolio/Calculator" element={<DevProjectsCalculatorEng />} />
       <Route path="/Portfolio/Login" element={<DevProjectsLoginEng />} />
       <Route path="/Portfolio/UrlShrink" element={<DevProjectsUrlShrinkEng />} />
+      <Route path="/Portfolio/TwitterScraping" element={<DevProjectsTwitterScraping />} />
       <Route path="/Blog" element={<BlogMainEng />} />
       <Route path="/Blog/AboutMe" element={<AboutMeBlogEng />} />
       <Route path="/Blog/Career" element={<ProfessionalExpBlogEng />} />

@@ -26,6 +26,7 @@ export function DevProjectsEng() {
         <a href="/Portfolio/Calculator"><strong>Calculator</strong></a>
         <a href="/Portfolio/Login"><strong>Login Page</strong></a>
         <a href="/Portfolio/UrlShrink"><strong>UrlShrink</strong></a>
+        <a href="/Portfolio/TwitterScraping"><strong>Twitter Scraping</strong></a>
       </div>
     </Container>
     </div>

@@ -16,8 +16,7 @@ export function HomeEng(){
       </p>
         <h1>What&apos;s going on now?</h1>
         <p>
-          So i&apos;m currently developing some backend projects with Node.js using Fastify to keep up on learning and practicing since it is what i really want to work with.<br />
-          Some are done, such as a URL Shrinker, and you can check it on my Portfolio!
+          I just finished a Twitter (X) scraping tool using only javascript! You can check all the details <a href="/Portfolio/TwitterScraping">here</a>!
         </p>
         <h1>On Going:</h1>
       <div className='comingSoon'>
