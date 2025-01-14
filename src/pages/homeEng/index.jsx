@@ -16,7 +16,7 @@ export function HomeEng(){
       </p>
         <h1>What&apos;s going on now?</h1>
         <p>
-          I just finished a Twitter (X) scraping tool using only javascript! You can check all the details <a href="/Portfolio/TwitterScraping">here</a>!
+          I just finished a Twitter (X) scraping tool using only javascript! You can check all the details &nbsp;<a href="/Portfolio/TwitterScraping">here</a>!
         </p>
         <h1>On Going:</h1>
       <div className='comingSoon'>
