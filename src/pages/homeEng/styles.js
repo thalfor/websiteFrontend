@@ -46,7 +46,7 @@ export const Container = styled.div`
     align-items: left;
   }
   
-  > a {
+  a {
     text-decoration: none;
     color: ${({ theme }) => theme.colors.text};
   }
@@ -101,7 +101,7 @@ export const Container = styled.div`
       align-items: left;
     }
 
-    > a {
+    a {
       text-decoration: none;
       color: ${({ theme }) => theme.colors.text};
     }
