@@ -10,6 +10,15 @@ export const Container = styled.div`
     width: auto;
     display: flex;
   }
+  
+  .puppeteerExtraImg {
+    height: 35rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.text};
+  }
 
   @media(min-width: 768px){
     padding-top: 5rem;
@@ -18,6 +27,10 @@ export const Container = styled.div`
     .codeblock {
       width: auto;
       display: flex;
+    }
+    
+    .puppeteerExtraImg {
+      height: 35rem;
     }
   }
 `;

@@ -24,6 +24,7 @@ export function MenuProject() {
           <a href="/Portfolio/Calculator" >Calculator</a>
           <a href="/Portfolio/Login" >Login</a>
           <a href="/Portfolio/UrlShrink" >UrlShrink</a>
+          <a href="/Portfolio/TwitterScraping" >Twitter Scraping</a>
         </div>
       </div>
     </Menu>
