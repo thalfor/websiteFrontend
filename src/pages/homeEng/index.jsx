@@ -22,8 +22,8 @@ export function HomeEng(){
       <div className='comingSoon'>
         <p>
           - At this moment I&apos;m creating a full Real Estate website for a potential client, with a backend integrated using services such as Cloudinary. <br />
-          - Personal Finance app.
-          - A website that shows where are the places without electrical energy.
+          - Personal Finance app.<br />
+          - A website that shows where are the places without electrical energy.<br />
           - A QR Code generator.<br />
         </p>
       </div>
