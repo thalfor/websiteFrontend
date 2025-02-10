@@ -22,11 +22,11 @@ export function DevProjectsEng() {
       </p>
       <div className='portfolioLinks'>
         <a href="/Portfolio/ThisWebsite"><strong>This Website</strong></a>
-        <a href="/Portfolio/AnalogClock"><strong>Analog Clock</strong></a>
         <a href="/Portfolio/Calculator"><strong>Calculator</strong></a>
         <a href="/Portfolio/Login"><strong>Login Page</strong></a>
         <a href="/Portfolio/UrlShrink"><strong>UrlShrink</strong></a>
         <a href="/Portfolio/TwitterScraping"><strong>Twitter Scraping</strong></a>
+        <a href="/Portfolio/FinancialData"><strong>Financial Data</strong></a>
       </div>
     </Container>
     </div>
@@ -34,3 +34,4 @@ export function DevProjectsEng() {
 }
 //
 //<a href="/Portfolio/UrlShrink"><strong>Url Shrinker (on going)</strong></a>
+//<a href="/Portfolio/AnalogClock"><strong>Analog Clock</strong></a>

@@ -20,11 +20,11 @@ export function MenuProject() {
         <div className={`menuProject ${isOpen ? 'active' : ''}`}>
           <a href="/Portfolio" >Portfolio</a>
           <a href="/Portfolio/ThisWebsite" >This Website</a>
-          <a href="/Portfolio/AnalogClock" >Analog Clock</a>
           <a href="/Portfolio/Calculator" >Calculator</a>
           <a href="/Portfolio/Login" >Login</a>
           <a href="/Portfolio/UrlShrink" >UrlShrink</a>
           <a href="/Portfolio/TwitterScraping" >Twitter Scraping</a>
+          <a href="/Portfolio/FinancialData" >Financial Data</a>
         </div>
       </div>
     </Menu>
@@ -32,3 +32,4 @@ export function MenuProject() {
 }
 //
 //<a href="/Portfolio/UrlShrink" >URL Shrink</a>
+//<a href="/Portfolio/AnalogClock" >Analog Clock</a>
